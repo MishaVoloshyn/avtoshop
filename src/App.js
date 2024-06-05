@@ -1,25 +1,67 @@
-import logo from './logo.svg';
+// App.js
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
+import { MainPage } from "./Pages/MainPage";
+import { CarsList } from "./Pages/Cars-list";
+import { CarCard } from "./Pages/Car-card";
+import { Blog } from "./Pages/Blog";
+import { BlogPage } from "./Pages/blog-page";
+import { Shop } from "./Pages/Shop";
+import { Questions } from "./Pages/Questions";
+import { LoanCalc } from "./Pages/LoanCalc";
+import { PriceCards } from "./Pages/PriceCards";
+import { Service } from "./Pages/Service";
+import { AboutUs } from "./Pages/AboutUs";
+import { Contacts } from "./Pages/Contacts";
+import { LoginForm } from "./Pages/LoginForm";
+
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <BrowserRouter>
+            <Routes>
+                {/* Главная страница - index */}
+                <Route path="index" element={<MainPage />} />
+
+                {/* Cars-list */}
+                <Route path="cars-list" element={<CarsList />} />
+
+                {/* Car-card */}
+                <Route path="car-card" element={<CarCard />} />
+
+                {/* Blog */}
+                <Route path="blog" element={<Blog />} />
+
+                {/* Blog-page */}
+                <Route path="blog-page" element={<BlogPage />} />
+
+                {/* Shop */}
+                <Route path="shop" element={<Shop />} />
+
+                {/* Questions */}
+                <Route path="questions" element={<Questions />} />
+
+                {/* Loan Calculator */}
+                <Route path="loan-calc" element={<LoanCalc />} />
+
+                {/* Price Cards */}
+                <Route path="price-cards" element={<PriceCards />} />
+
+                {/* Service */}
+                <Route path="service" element={<Service />} />
+
+                {/* About Us */}
+                <Route path="about-us" element={<AboutUs />} />
+
+                {/* Contacts */}
+                <Route path="contacts" element={<Contacts />} />
+
+                {/* Login Form */}
+                <Route path="login-form" element={<LoginForm />} />
+            </Routes>
+        </BrowserRouter>
+    );
 }
 
 export default App;
