@@ -25,3 +25,5 @@ yarn-error.log*
 /.idea/vcs.xml
 /.idea/inspectionProfiles/Project_Default.xml
 /.idea/php.xml
+/.idea/avtoshop.iml
+/.idea/modules.xml
