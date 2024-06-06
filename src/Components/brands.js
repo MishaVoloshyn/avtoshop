@@ -19,12 +19,12 @@ export function Brands() {
                 </div>
             </div>
             <div className="row">
-                <div className="col-6 col-sm-4 col-lg-2 d-flex justify-content-center"><img src={audiIcon}/></div>
-                <div className="col-6 col-sm-4 col-lg-2 d-flex justify-content-center"><img src={vwIcon}/></div>
-                <div className="col-6 col-sm-4 col-lg-2 d-flex justify-content-center"><img src={mercedesIcon}/></div>
-                <div className="col-6 col-sm-4 col-lg-2 d-flex justify-content-center"><img src={bmwIcon}/></div>
-                <div className="col-6 col-sm-4 col-lg-2 d-flex justify-content-center"><img src={fordIcon}/></div>
-                <div className="col-6 col-sm-4 col-lg-2 d-flex justify-content-center"><img src={peugeotIcon}/></div>
+                <div className="col-6 col-sm-4 col-lg-2 d-flex justify-content-center border-16 brands-border-color"><img src={audiIcon}/></div>
+                <div className="col-6 col-sm-4 col-lg-2 d-flex justify-content-center border-16 brands-border-color"><img src={vwIcon}/></div>
+                <div className="col-6 col-sm-4 col-lg-2 d-flex justify-content-center border-16 brands-border-color"><img src={mercedesIcon}/></div>
+                <div className="col-6 col-sm-4 col-lg-2 d-flex justify-content-center border-16 brands-border-color"><img src={bmwIcon}/></div>
+                <div className="col-6 col-sm-4 col-lg-2 d-flex justify-content-center border-16 brands-border-color"><img src={fordIcon}/></div>
+                <div className="col-6 col-sm-4 col-lg-2 d-flex justify-content-center border-16 brands-border-color"><img src={peugeotIcon}/></div>
             </div>
         </div>
 

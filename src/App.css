@@ -10,44 +10,116 @@
 }
 
 /* классы для цветов текста */
-.primary-color{color: var(--primary-color)}
-.blue-color{color: var(--blue-color)}
-.white-2-color{color: var(--white-2-color);}
-.green-1-color{color: var(--green-1-color);}
-.green-2-color{color: var(--green-2-color);}
-.red-color{color: var(--red-color);}
-
-/* классы для цветов фона */
-.bg-primary{background-color: var(--primary-color)}
-.bg-blue{background-color: var(--blue-color)}
-.bg-white-2{background-color: var(--white-2-color);}
-.bg-green-1{background-color: var(--green-1-color);}
-.bg-green-2{background-color: var(--green-2-color);}
-.bg-red{background-color: var(--red-color);}
-
-body
-{
-    font-family:  "DM Sans", sans-serif;
+.primary-color {
+    color: var(--primary-color)
 }
 
-h1 { font-size: 70px;}
-h2 { font-size: 40px;}
-h3 { font-size: 30px;}
-h4 { font-size: 20px;}
+.blue-color {
+    color: var(--blue-color)
+}
 
-.ft-18 { font-size: 18px;}
-.ft-16 { font-size: 16px;}
-.ft-15 { font-size: 15px;}
+.white-2-color {
+    color: var(--white-2-color);
+}
 
-.dm-sans-regular { font-weight: 400}
-.dm-sans-medium { font-weight: 500}
-.dm-sans-bold { font-weight: 700}
+.green-1-color {
+    color: var(--green-1-color);
+}
 
-.border-16{border-radius: 16px}
-.border-30{border-radius: 30px}
+.green-2-color {
+    color: var(--green-2-color);
+}
+
+.red-color {
+    color: var(--red-color);
+}
+
+/* классы для цветов фона */
+.bg-primary {
+    background-color: var(--primary-color)
+}
+
+.bg-blue {
+    background-color: var(--blue-color)
+}
+
+.bg-white-2 {
+    background-color: var(--white-2-color);
+}
+
+.bg-green-1 {
+    background-color: var(--green-1-color);
+}
+
+.bg-green-2 {
+    background-color: var(--green-2-color);
+}
+
+.bg-red {
+    background-color: var(--red-color);
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+.ft-18 {
+    font-size: 18px;
+}
+
+.ft-16 {
+    font-size: 16px;
+}
+
+.ft-15 {
+    font-size: 15px;
+}
+
+.dm-sans-regular {
+    font-weight: 400
+}
+
+.dm-sans-medium {
+    font-weight: 500
+}
+
+.dm-sans-bold {
+    font-weight: 700
+}
+
+.brands-border-color {
+    border-color: #E9E9E9;
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+.border-16 {
+    border-radius: 16px
+}
+
+.border-30 {
+    border-radius: 30px
+}
 
 /* Место для переопределения стилей Bootstrap*/
-.nav-link{color: var(--primary-color)}
+.nav-link {
+    color: var(--primary-color)
+}
 
 
 /* Место для кастомных классов */
