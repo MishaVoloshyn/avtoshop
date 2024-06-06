@@ -11,42 +11,84 @@ export function Brands() {
         <div className="container">
             <div className="row">
                 <div className="col-6">
-                    <p className="text-start">Explore Our Premium Brands</p>
+                    <p className="text-start dm-sans-bold h2">Explore Our Premium Brands</p>
                 </div>
 
                 <div className="col-6">
-                    <p className="text-end">Explore Our Premium Brands</p>
+                    <p className="text-end dm-sans-medium">Show All Brands</p>
                 </div>
             </div>
             <div className="row">
+
                 <div className="col-6 col-sm-4 col-lg-2 ">
-                    <div className="d-flex justify-content-center border-16 brands-border-color">
-                        <img  src={audiIcon}/>
+                    <div className=" border-16 brands-border-color">
+                        <div className="row">
+                            <div className="col-12 d-flex justify-content-center pt-3">
+                                <img src={audiIcon}/>
+                            </div>
+                            <div className="col-12 d-flex justify-content-center pt-1 pb-1">
+                                <p>Audi</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
+
+
                 <div className="col-6 col-sm-4 col-lg-2 ">
-                    <div className="d-flex justify-content-center border-16 brands-border-color">
-                        <img src={vwIcon}/>
-                    </div>
-                </div>
-                <div className="col-6 col-sm-4 col-lg-2 ">
-                    <div className="d-flex justify-content-center border-16 brands-border-color">
-                        <img src={mercedesIcon}/>
-                    </div>
-                </div>
-                <div className="col-6 col-sm-4 col-lg-2 ">
-                    <div className="d-flex justify-content-center border-16 brands-border-color">
-                        <img src={bmwIcon}/>
-                    </div>
-                </div>
-                <div className="col-6 col-sm-4 col-lg-2 ">
-                    <div className="d-flex justify-content-center border-16 brands-border-color">
-                        <img src={fordIcon}/>
+                    <div className=" border-16 brands-border-color">
+                        <div className="row">
+                            <div className="col-12 d-flex justify-content-center pt-3">
+                                <img src={mercedesIcon}/>
+                            </div>
+                            <div className="col-12 d-flex justify-content-center pt-1 pb-1">
+                                <p>Mercedes</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div className="col-6 col-sm-4 col-lg-2 ">
                     <div className=" border-16 brands-border-color">
-                        <div className="row ">
+                        <div className="row">
+                            <div className="col-12 d-flex justify-content-center pt-3">
+                                <img src={bmwIcon}/>
+                            </div>
+                            <div className="col-12 d-flex justify-content-center pt-1 pb-1">
+                                <p>BMW</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="col-6 col-sm-4 col-lg-2 ">
+                    <div className=" border-16 brands-border-color">
+                        <div className="row">
+                            <div className="col-12 d-flex justify-content-center pt-3">
+                                <img src={vwIcon}/>
+                            </div>
+                            <div className="col-12 d-flex justify-content-center pt-1 pb-1">
+                                <p>Volkswagen</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div className="col-6 col-sm-4 col-lg-2 ">
+                    <div className=" border-16 brands-border-color">
+                        <div className="row">
+                            <div className="col-12 d-flex justify-content-center pt-3">
+                                <img src={fordIcon}/>
+                            </div>
+                            <div className="col-12 d-flex justify-content-center pt-1 pb-1">
+                                <p>Ford</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="col-6 col-sm-4 col-lg-2 ">
+                    <div className=" border-16 brands-border-color">
+                        <div className="row">
                             <div className="col-12 d-flex justify-content-center pt-3">
                                 <img src={peugeotIcon}/>
                             </div>
@@ -54,10 +96,10 @@ export function Brands() {
                                 <p>Peugeot</p>
                             </div>
                         </div>
-
-
                     </div>
                 </div>
+
+
             </div>
         </div>
 
