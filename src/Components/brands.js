@@ -8,17 +8,17 @@ import peugeotIcon from '../assets/image/brands/peugeot.jpg.png';
 
 export function Brands() {
     return (
-        <div className="container mt-5">
+        <div className="container">
             <div className="row">
                 <div className="col-6">
                     <p className="text-start dm-sans-bold h2">Explore Our Premium Brands</p>
                 </div>
 
                 <div className="col-6">
-                    <p className="text-end dm-sans-medium">Show All Brands</p>
+                    <p className="text-end dm-sans-medium"><a className="text-end dm-sans-medium text-decoration-none">Show All Brands <i className="bi bi-arrow-up-right"></i></a></p>
                 </div>
             </div>
-            <div className="row gy-3">
+            <div className="row">
 
                 <div className="col-6 col-sm-4 col-lg-2 ">
                     <div className=" border-16 brands-border-color">

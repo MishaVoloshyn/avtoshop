@@ -90,6 +90,13 @@ h4 {
 .ft-15 {
     font-size: 15px;
 }
+.ft-14{
+    font-size: 14px;
+}
+
+.ft-20{
+    font-size: 20px;
+}
 
 .dm-sans-regular {
     font-weight: 400
@@ -103,10 +110,6 @@ h4 {
     font-weight: 700
 }
 
-.brands-border-color {
-    border: 1px solid #E9E9E9;
-    /*box-shadow: 2px 2px 2px 2px black;*/
-}
 
 .border-16 {
     border-radius: 16px
@@ -126,6 +129,17 @@ h4 {
 
 
 /*Название компонента */
+
+.brands-border-color {
+    border: 1px solid #E9E9E9;
+    /*box-shadow: 2px 2px 2px 2px black;*/
+}
+.brands-background-color{
+    background-color: #F9FBFC;
+}
+.brands-block-bg-color{
+    background-color: white;
+}
 
 
 
