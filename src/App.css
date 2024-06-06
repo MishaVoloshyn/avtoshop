@@ -104,8 +104,8 @@ h4 {
 }
 
 .brands-border-color {
-    border-color: #E9E9E9;
-    box-shadow: 2px 2px 2px 2px black;
+    border: 1px solid #E9E9E9;
+    /*box-shadow: 2px 2px 2px 2px black;*/
 }
 
 .border-16 {
