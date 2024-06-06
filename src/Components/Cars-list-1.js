@@ -20,7 +20,7 @@ export function CarsList() {
                     </ul>
                 </div>
                 <div className="col-12 mt-5">
-                    <div className="row gx-3">
+                    <div className="row gx-3 gy-3">
                         <CarCardPattern />
                         <CarCardPattern />
                         <CarCardPattern />

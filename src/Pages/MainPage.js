@@ -5,8 +5,6 @@ import {HeaderLight} from "../Components/Header-light";
 
 export const MainPage = () => (
     <>
-        <p>Hello MainPage!</p>
-
         <HeaderLight/>
         <CarsList/>
         <Brands/>

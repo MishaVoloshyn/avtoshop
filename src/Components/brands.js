@@ -8,7 +8,7 @@ import peugeotIcon from '../assets/image/brands/peugeot.jpg.png';
 
 export function Brands() {
     return (
-        <div className="container">
+        <div className="container mt-5">
             <div className="row">
                 <div className="col-6">
                     <p className="text-start dm-sans-bold h2">Explore Our Premium Brands</p>
@@ -18,7 +18,7 @@ export function Brands() {
                     <p className="text-end dm-sans-medium">Show All Brands</p>
                 </div>
             </div>
-            <div className="row">
+            <div className="row gy-3">
 
                 <div className="col-6 col-sm-4 col-lg-2 ">
                     <div className=" border-16 brands-border-color">
