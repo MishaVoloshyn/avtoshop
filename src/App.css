@@ -1,0 +1,43 @@
+/* ОСНОВНЫЕ КЛАССЫ */
+:root {
+    --primary-color: #050B20; /* Основной цвет */
+    --blue-color: #405FF2; /* Синий цвет */
+    --white-2-color: #F9FBFC; /* Цвет для подложки в компонентах */
+    --green-1-color: #3D923A; /* 1 зеленый цвет */
+    --green-2-color: #00B67A; /* 2 зеленый цвет */
+    --red-color: #D93025; /* Красный цвет */
+    --background-color: #ffffff; /* Цвет фона всех страниц */
+}
+
+.blue-color{color: var(--blue-color)}
+.white-2-color{color: var(--white-2-color);}
+.green-1-color{color: var(--green-1-color);}
+.green-2-color{color: var(--green-2-color);}
+.red-color{color: var(--red-color);}
+
+body
+{
+    font-family:  "DM Sans", sans-serif;
+}
+
+h1 { font-size: 70px;}
+h2 { font-size: 40px;}
+h3 { font-size: 30px;}
+h4 { font-size: 20px;}
+
+.ft-18 { font-size: 18px;}
+.ft-16 { font-size: 16px;}
+.ft-15 { font-size: 15px;}
+
+.dm-sans-regular { font-weight: 400}
+.dm-sans-medium { font-weight: 500}
+.dm-sans-bold { font-weight: 700}
+
+/* Место для кастомных классов */
+
+/*Название компонента */
+
+.example
+{
+    background-color: var(--background-color);
+}
