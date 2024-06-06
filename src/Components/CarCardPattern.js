@@ -7,8 +7,12 @@ import typeIcon from '../../src/assets/image/car-list-icons/type-icon.svg';
 export function CarCardPattern() {
     return (
         <div className="col-12 col-md-6 col-lg-3">
-            <div className="card">
-                <img src="https://automoto.ua/uploads/auto/Rimac%20Nevera.jpg" className="card-img-top" alt="..." />
+            <div className="card border-16">
+
+                <div className="position-relative">
+                    <img src="https://automoto.ua/uploads/auto/Rimac%20Nevera.jpg" className="card-img-top" alt="Car" />
+                    <span className="badge bg-green-1 text-white position-absolute py-2 dm-sans-medium ft-15 border-30" style={{ top: '15px', left: '10px' }}>Great Price</span>
+                </div>
                 <div className="card-body">
                     <h5 className="card-title ft-18 mb-0 dm-sans-medium">Toyota Camry New</h5>
                     <p className="ft-15 border-bottom dm-sans-regular">

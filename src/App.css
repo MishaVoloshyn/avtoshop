@@ -9,11 +9,21 @@
     --background-color: #ffffff; /* Цвет фона всех страниц */
 }
 
+/* классы для цветов текста */
+.primary-color{color: var(--primary-color)}
 .blue-color{color: var(--blue-color)}
 .white-2-color{color: var(--white-2-color);}
 .green-1-color{color: var(--green-1-color);}
 .green-2-color{color: var(--green-2-color);}
 .red-color{color: var(--red-color);}
+
+/* классы для цветов фона */
+.bg-primary{background-color: var(--primary-color)}
+.bg-blue{background-color: var(--blue-color)}
+.bg-white-2{background-color: var(--white-2-color);}
+.bg-green-1{background-color: var(--green-1-color);}
+.bg-green-2{background-color: var(--green-2-color);}
+.bg-red{background-color: var(--red-color);}
 
 body
 {
@@ -33,11 +43,14 @@ h4 { font-size: 20px;}
 .dm-sans-medium { font-weight: 500}
 .dm-sans-bold { font-weight: 700}
 
+.border-16{border-radius: 16px}
+.border-30{border-radius: 30px}
+
+/* Место для переопределения стилей Bootstrap*/
+.nav-link{color: var(--primary-color)}
+
+
 /* Место для кастомных классов */
 
 /*Название компонента */
 
-.example
-{
-    background-color: var(--background-color);
-}

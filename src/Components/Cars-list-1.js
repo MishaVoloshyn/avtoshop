@@ -4,15 +4,15 @@ import { CarCardPattern } from "./CarCardPattern";
 export function CarsList() {
     return (
         <div className="container">
-            <h2>Explore All Vehicles</h2>
+            <h2 className="primary-color dm-sans-bold">Explore All Vehicles</h2>
             <div className="row">
                 <div className="col-12">
                     <ul className="nav nav-underline">
-                        <li className="nav-item">
+                        <li className="nav-item dm-sans-medium">
                             <a className="nav-link active">Recent Cars</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link">Featured Cars</a>
+                            <a className="nav-link ">Featured Cars</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link">Popular Cars</a>
