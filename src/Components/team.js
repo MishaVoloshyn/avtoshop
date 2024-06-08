@@ -12,7 +12,7 @@ export function Team() {
                     <p className="dm-sans-bold text-start h2">Our Team</p>
                 </div>
                 <div className="col-6">
-                    <p className="dm-sans text-end"><a className="dm-sans text-end text-decoration-none">View All <i className="bi bi-arrow-up-right"></i> </a></p>
+                    <p className="dm-sans text-end"><a className="dm-sans text-end text-decoration-none text-black">View All <i className="bi bi-arrow-up-right"></i> </a></p>
                 </div>
             </div>
 

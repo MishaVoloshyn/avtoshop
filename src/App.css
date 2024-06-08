@@ -98,6 +98,10 @@ h4 {
     font-size: 20px;
 }
 
+.ft-40{
+    font-size: 40px;
+}
+
 .dm-sans-regular {
     font-weight: 400
 }
@@ -139,6 +143,10 @@ h4 {
 }
 .brands-block-bg-color{
     background-color: white;
+}
+
+.bg-color{
+    background-color: #F9FBFC;
 }
 
 
