@@ -128,11 +128,14 @@ h4 {
     color: var(--primary-color)
 }
 
+a{
+    text-decoration: none;
+}
 
 /* Место для кастомных классов */
 
 
-/*Название компонента */
+/* --- Brands --- */
 
 .brands-border-color {
     border: 1px solid #E9E9E9;
@@ -148,6 +151,12 @@ h4 {
 .bg-color{
     background-color: #F9FBFC;
 }
+
+
+/* --- Car-list --- */
+.view-all:hover { color: var(--blue-color) }
+.view-det:hover { color: var(--primary-color)}
+
 
 
 
