@@ -4,6 +4,7 @@ import {Brands} from "../Components/Brands";
 import {Team} from "../Components/Team";
 import {Application} from "../Components/Application";
 import {SingleImg1} from "../Components/single-img-1";
+import {Benefits1} from "../Components/benefits-1";
 
 export const MainPage = () => (
     <>
@@ -13,6 +14,7 @@ export const MainPage = () => (
         <Team/>
             <Application/>
         <SingleImg1/>
+        <Benefits1/>
         <Outlet/>
     </>
 
