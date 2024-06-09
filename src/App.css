@@ -180,7 +180,7 @@ a{
 
 
 .card-button:hover{
-    background-color: initial !important;
+    background-color: initial;
     transition: background-color 0.3s, color 0.3s;
 }
 
