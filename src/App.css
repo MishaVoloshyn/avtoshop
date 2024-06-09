@@ -134,6 +134,14 @@ a{
 
 /* Место для кастомных классов */
 
+/* --- single-img-1 --- */
+.singleImg1-button{
+    background-color: #050B20;
+    border-radius: 16px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
 
 /* --- Brands --- */
 
