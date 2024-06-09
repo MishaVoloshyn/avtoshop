@@ -1,8 +1,9 @@
 import { Outlet  } from 'react-router-dom';
+import {Price_Cards} from "../Components/price-cards";
 
 export const PriceCards = () => (
     <>
-        <p>Hello PriceCards!</p>
+        <Price_Cards/>
         <Outlet/>
     </>
 

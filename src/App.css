@@ -98,6 +98,10 @@ h4 {
     font-size: 20px;
 }
 
+.ft-38{
+    font-size: 38px;
+}
+
 .ft-40{
     font-size: 40px;
 }
@@ -133,6 +137,54 @@ a{
 }
 
 /* Место для кастомных классов */
+
+
+/* --- price-cards --- */
+.custom-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.custom-list li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+
+.custom-list li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background-image: url('assets/image/price-cards/Overlay.png');
+    background-size: cover;
+}
+
+.price-cards-border-color{
+    border: 1px solid #E9E9E9;
+}
+.price-cards-border-color1{
+    border: 1px solid #405FF2;
+}
+
+.card {
+    transition: background-color 0.3s, color 0.3s;
+}
+.card:hover{
+    background-color: #405FF2;
+    color: white;
+}
+
+
+.card-button:hover{
+    background-color: initial !important;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
 
 /* --- single-img-1 --- */
 .singleImg1-button{
