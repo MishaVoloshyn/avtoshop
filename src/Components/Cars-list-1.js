@@ -16,7 +16,7 @@ export function CarsList({ limit }) {
                     <h2 className="primary-color dm-sans-bold">Explore All Vehicles</h2>
                 </div>
                 <div className="col-6 text-end">
-                    <a href=""><p className="ft-15 primary-color dm-sans-medium mb-0 view-all">View All <i className="bi bi-arrow-up-right"></i></p></a>
+                    <a href=""><p className="ft-18 primary-color dm-sans-medium mb-0 view-all">View All <i className="bi bi-arrow-up-right"></i></p></a>
                 </div>
             </div>
             <div className="row">
