@@ -8,10 +8,10 @@ import peugeotIcon from '../assets/image/brands/peugeot.jpg.png';
 
 export function Brands() {
     return (
-        <div className="container">
-            <div className="row">
+        <div className="container my-5">
+            <div className="row pb-3">
                 <div className="col-6">
-                    <p className="text-start dm-sans-bold h2">Explore Our Premium Brands</p>
+                    <h2 className="text-start dm-sans-bold">Explore Our Premium Brands</h2>
                 </div>
 
                 <div className="col-6">

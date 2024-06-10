@@ -1,6 +1,10 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
+
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 import './App.css';
 
 import { MainPage } from "./Pages/MainPage";
@@ -16,6 +20,7 @@ import { Service } from "./Pages/Service";
 import { AboutUs } from "./Pages/AboutUs";
 import { Contacts } from "./Pages/Contacts";
 import { LoginForm } from "./Pages/LoginForm";
+
 
 function App() {
     return (

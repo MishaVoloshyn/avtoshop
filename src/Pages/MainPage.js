@@ -7,17 +7,18 @@ import {SingleImg1} from "../Components/single-img-1";
 import {Benefits1} from "../Components/benefits-1";
 import {HeaderLight} from "../Components/Header-light";
 import {Footer} from "../Components/Footer";
+import {Rtl} from "../Components/Customer-rating";
 
 export const MainPage = () => (
     <>
-        <p>Hello MainPage!</p>
         {/*<HeaderLight/>*/}
-        <CarsList/>
         <Brands/>
+        <CarsList/>
         <Team/>
-            <Application/>
+        <Application/>
         <SingleImg1/>
         <Benefits1/>
+        <Rtl/>
         <Outlet/>
         <Footer/>
     </>

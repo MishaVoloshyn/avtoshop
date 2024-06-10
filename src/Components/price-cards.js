@@ -6,7 +6,7 @@ export function Price_Cards(){
         <div className="container">
             <p className="dm-sans-bold ft-40 text-center">Membership Plans</p>
             <div className="row">
-                <div className="col-3 border-16 price-cards-border-color card py-5">
+                <div className="col-3 border-16 price-cards-border-color price-card py-5">
                     <p className="dm-sans-bold ft-38">$29</p>
                     <p className="dm-sans-medium ft-20">Basic plan</p>
                     <p className="dm-sans-regular ft-14">Quis autem vel eum iure reprehenderit

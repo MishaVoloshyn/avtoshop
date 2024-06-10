@@ -9,7 +9,7 @@ export function CarCardPattern({ car }) {
 
     return (
         <div className="col-12 col-md-6 col-lg-4 col-xl-3">
-            <div className="card border-16">
+            <div className="card">
                 <div className="position-relative">
                     <img src={car.image} className="card-img-top" alt="Car" />
                     <span className={`badge ${car.badge === 'Great Price' ? 'bg-green-1' : 'bg-blue'} text-white position-absolute py-2 px-3 dm-sans-medium ft-15 border-30`} style={{ top: '15px', left: '10px' }}>{car.badge}</span>

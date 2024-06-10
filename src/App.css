@@ -174,10 +174,10 @@ a{
     border: 1px solid #405FF2;
 }
 
-.card {
+.price-card {
     transition: background-color 0.3s, color 0.3s;
 }
-.card:hover{
+.price-card:hover{
     background-color: #405FF2;
     color: white;
 }
@@ -220,7 +220,6 @@ a{
 /* --- Car-list --- */
 .view-all:hover { color: var(--blue-color) }
 .view-det:hover { color: var(--primary-color)}
-
 
 
 
