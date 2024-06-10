@@ -27,3 +27,4 @@ yarn-error.log*
 /.idea/php.xml
 /.idea/avtoshop.iml
 /.idea/modules.xml
+/.idea/deployment.xml

@@ -5,10 +5,13 @@ import {Team} from "../Components/Team";
 import {Application} from "../Components/Application";
 import {SingleImg1} from "../Components/single-img-1";
 import {Benefits1} from "../Components/benefits-1";
+import {HeaderLight} from "../Components/Header-light";
+import {Footer} from "../Components/Footer";
 
 export const MainPage = () => (
     <>
         <p>Hello MainPage!</p>
+        {/*<HeaderLight/>*/}
         <CarsList/>
         <Brands/>
         <Team/>
@@ -16,6 +19,7 @@ export const MainPage = () => (
         <SingleImg1/>
         <Benefits1/>
         <Outlet/>
+        <Footer/>
     </>
 
 );

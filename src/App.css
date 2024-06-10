@@ -39,6 +39,10 @@
     background-color: var(--primary-color)
 }
 
+.bg-primary1 {
+    background-color: #050B20
+}
+
 .bg-blue {
     background-color: var(--blue-color)
 }
