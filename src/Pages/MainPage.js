@@ -7,19 +7,21 @@ import {SingleImg1} from "../Components/single-img-1";
 import {Benefits1} from "../Components/benefits-1";
 import {HeaderLight} from "../Components/Header-light";
 import {Footer} from "../Components/Footer";
-import {Rtl} from "../Components/Customer-rating";
+import {Rating} from "../Components/Customer-rating";
+import {SingleImg2} from "../Components/Single-img-2";
 
 export const MainPage = () => (
     <>
         {/*<HeaderLight/>*/}
         <Brands/>
         <CarsList/>
-        <Team/>
-        <Application/>
         <SingleImg1/>
         <Benefits1/>
-        <Rtl/>
+        <Rating/>
+        <Team/>
+        <Application/>
         <Outlet/>
+        <SingleImg2/>
         <Footer/>
     </>
 

@@ -42,6 +42,9 @@
 .bg-primary1 {
     background-color: #050B20
 }
+.bg-white{
+    background-color: var(--background-color);
+}
 
 .bg-blue {
     background-color: var(--blue-color)
@@ -222,5 +225,13 @@ a{
 .view-det:hover { color: var(--primary-color)}
 
 
+.slick-prev:before,
+.slick-next:before {
+    color: var(--blue-color);
+}
 
+.rating{ box-shadow: 2px -1px 22px -6px rgba(0,0,0,0.23);}
 
+.bi-star-fill, .bi-star {color: var(--green-1-color)}
+.btn-outline-white{color: var(--background-color); border-color: var(--background-color)}
+.btn-outline-white:hover{color: var(--blue-color); border-color: var(--blue-color)}
