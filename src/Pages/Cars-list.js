@@ -53,7 +53,6 @@ export const CarsList = () => (
             </div>
         </section>
 
-
         <Outlet/>
     </>
 

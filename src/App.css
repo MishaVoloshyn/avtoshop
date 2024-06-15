@@ -142,6 +142,7 @@ h4 {
 a{
     text-decoration: none;
 }
+.btn{border-radius: 16px}
 
 /* Место для кастомных классов */
 
@@ -201,7 +202,19 @@ a{
     text-align: center;
     padding: 10px;
 }
-
+.btn-single
+{
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+}
+.btn-single:hover
+{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    transition: 0.3s linear;
+}
 /* --- Brands --- */
 
 .brands-border-color {
@@ -235,3 +248,43 @@ a{
 .bi-star-fill, .bi-star {color: var(--green-1-color)}
 .btn-outline-white{color: var(--background-color); border-color: var(--background-color)}
 .btn-outline-white:hover{color: var(--blue-color); border-color: var(--blue-color)}
+
+
+/* FOOTER */
+input {
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+input:focus {
+    outline: 2px solid rgba(255, 255, 255, 1);
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.wrapper {
+    position: relative;
+}
+
+.wrapper input {
+    border: none;
+    background: rgba(255, 255, 255, 13%);
+    border-radius: 50px;
+    padding: 1rem 2rem;
+    width: 100%;
+}
+
+.wrapper button {
+    background: var(--blue-color);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 0px 15px;
+    height: 80%;
+    position: absolute;
+    top: 10%;
+    right: 8px;
+}

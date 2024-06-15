@@ -3,7 +3,27 @@ export function Footer() {
     return (
         <div className="bg-primary1">
             <div className="container pt-5 pb-5">
-                <div className="row">
+                <div className="row my-3 pb-4 border-bottom">
+                    <div className="col-12 col-lg-6 text-white">
+                        <h3 className="">Join BoxCar</h3>
+                        <p className="ft-15">Receive pricing updates, shopping tips & more!</p>
+                    </div>
+                    <div className="col-12 col-lg-6">
+                        <div className="row justify-content-end">
+                            <div className="col-12 col-lg-9">
+                                <div className="wrapper">
+                                    <input type="text" placeholder="Your email address" />
+                                    <button>
+                                        <span className="dm-sans-medium ft-15">Sign Up</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div className="row pt-5">
                     <div className="col-3 white-2-color dm-sans-regular">
                         <h4 className="white-2-color pb-2">Company</h4>
                         <div className="ft-15">
@@ -51,21 +71,36 @@ export function Footer() {
                         <h4 className=" pb-2">Connect With Us</h4>
                         <div className="row white-2-color">
                             <div className="col-3">
-                                Icon
+                                <i className="bi bi-facebook"></i>
                             </div>
                             <div className="col-3">
-                                Icon
+                                <i className="bi bi-twitter"></i>
                             </div>
                             <div className="col-3">
-                                Icon
+                                <i className="bi bi-instagram"></i>
                             </div>
                             <div className="col-3">
-                                Icon
+                                <i className="bi bi-linkedin"></i>
                             </div>
                         </div>
                     </div>
                 </div>
-
+                <hr/>
+                <div className="row">
+                    <div className="col-12 col-lg-6">
+                        <p className="ft-15 dm-sans-regular text-white">© 2024 exemple.com. All rights reserved.</p>
+                    </div>
+                    <div className="col-12 col-lg-6 text-end">
+                        <div className="row justify-content-end">
+                            <div className="col-3 text-end">
+                                <a href=""><p className="ft-15 dm-sans-regular text-white">Terms & Conditions</p></a>
+                            </div>
+                            <div className="col-3">
+                                <a href=""><p className="ft-15 dm-sans-regular text-white">Privacy Notice</p></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
             </div>
         </div>
