@@ -7,7 +7,7 @@ export function Price_Cards(){
                 <h2 className="dm-sans-bold text-center mb-5">Membership Plans</h2>
                 <div className="row gx-3 gy-3">
 
-                    <div className="col-12 col-md-6 col-lg-3">
+                    <div className="col-12 col-md-6 col-xl-3">
                         <div className="price-cards-border-color border-16 py-3 px-4 price-card">
                             <p className="dm-sans-bold ft-38 mb-1">$29</p>
                             <p className="dm-sans-medium ft-20 mb-2">Basic plan</p>
@@ -29,7 +29,7 @@ export function Price_Cards(){
 
                     </div>
 
-                    <div className="col-12 col-md-6 col-lg-3 text-white">
+                    <div className="col-12 col-md-6 col-xl-3 text-white">
                         <div className="price-cards-border-color border-16 bg-blue py-3 px-4">
                             <p className="dm-sans-bold ft-38 mb-1">$39</p>
                             <p className="dm-sans-medium ft-20 mb-2">Standard Plan</p>
@@ -49,7 +49,7 @@ export function Price_Cards(){
                         </div>
                     </div>
 
-                    <div className="col-12 col-md-6 col-lg-3">
+                    <div className="col-12 col-md-6 col-xl-3">
                         <div className="price-cards-border-color border-16 py-3 px-4 price-card">
                             <p className="dm-sans-bold ft-38 mb-1">$89</p>
                             <p className="dm-sans-medium ft-20 mb-2">Extended Plan</p>
@@ -70,7 +70,7 @@ export function Price_Cards(){
 
                     </div>
 
-                    <div className="col-12 col-md-6 col-lg-3">
+                    <div className="col-12 col-md-6 col-xl-3">
                         <div className="price-cards-border-color border-16 py-3 px-4 price-card">
                             <p className="dm-sans-bold ft-38 mb-1">$129</p>
                             <p className="dm-sans-medium ft-20 mb-2">Enterprise Plan</p>
