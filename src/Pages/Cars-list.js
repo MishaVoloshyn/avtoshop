@@ -2,12 +2,14 @@ import { Outlet  } from 'react-router-dom';
 import {CarCardPattern} from "../Components/CarCardPattern";
 import {CarsList2} from "../Components/Cars-List-2";
 import React from "react";
+import {HeaderDark} from "../Components/Header-dark-1";
 import {Footer} from "../Components/Footer";
 
 export const CarsList = () => (
 
 
     <>
+        <HeaderDark/>
         <section className="mt-5">
             <div className="container">
                 <nav aria-label="breadcrumb">

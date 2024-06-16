@@ -14,6 +14,8 @@ import {SingleImg2} from "../Components/Single-img-2";
 export const MainPage = () => (
     <>
         {/*<HeaderLight/>*/}
+
+        <HeaderLight/>
         <Brands/>
         <CarsList/>
         <SingleImg1/>
@@ -28,3 +30,6 @@ export const MainPage = () => (
     </>
 
 );
+
+
+
