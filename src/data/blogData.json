@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "2024 BMW ALPINA XB7 with exclusive details,\nextraordinary",
+    "date": "November 22, 2023",
+    "owner": "admin",
+    "image": "/image/car-blog-list/1.png",
+    "badge": "Sound",
+    "bg-color": "white"
+  },
+  {
+    "id": 2,
+    "title": "BMW X6 M50i is designed to exceed your\nsportiest.",
+    "date": "November 22, 2023",
+    "owner": "admin",
+    "image": "/image/car-blog-list/2.png",
+    "badge": "Accessories",
+    "bg-color": "white"
+  },
+  {
+    "id": 3,
+    "title": "BMW X5 Gold 2024 Sport Review: Light on\nSport",
+    "date": "November 22, 2023",
+    "owner": "admin",
+    "image": "/image/car-blog-list/3.png",
+    "badge": "Exterior",
+    "bg-color": "white"
+  }
+]

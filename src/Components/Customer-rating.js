@@ -4,11 +4,13 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 export function Rating() {
-    const settings = {
+    let settings = {
         dots: false,
         infinite: true,
+        speed: 500,
         slidesToShow: 3,
         slidesToScroll: 1,
+        initialSlide: 0,
         autoplay: true,
         autoplaySpeed: 2000,
         rtl: false,
@@ -18,20 +20,23 @@ export function Rating() {
                 settings: {
                     slidesToShow: 3,
                     slidesToScroll: 1,
+                    infinite: true,
+                    dots: false,
                 }
             },
             {
-                breakpoint: 768,
+                breakpoint: 600,
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 1,
+                    initialSlide: 2
                 }
             },
             {
                 breakpoint: 480,
                 settings: {
                     slidesToShow: 1,
-                    slidesToScroll: 1,
+                    slidesToScroll: 1
                 }
             }
         ]
