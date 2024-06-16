@@ -10,6 +10,7 @@ import {Footer} from "../Components/Footer";
 import {Rating} from "../Components/Customer-rating";
 import {BlogList1} from "../Components/Blog-1";
 import {SingleImg2} from "../Components/Single-img-2";
+import React from "react";
 
 export const MainPage = () => (
     <>

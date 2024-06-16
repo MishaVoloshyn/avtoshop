@@ -159,7 +159,7 @@ a{
 .custom-list li {
     position: relative;
     padding-left: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .custom-list li::before {
@@ -177,16 +177,38 @@ a{
 .price-cards-border-color{
     border: 1px solid #E9E9E9;
 }
-.price-cards-border-color1{
-    border: 1px solid #405FF2;
+.blue-border-color{
+    border: 1px solid var(--blue-color);
+}
+.white-border-color
+{
+    border: 1px solid white;
 }
 
-.price-card {
-    transition: background-color 0.3s, color 0.3s;
-}
-.price-card:hover{
-    background-color: #405FF2;
+
+/*.price-card:hover{*/
+/*    transform: scale(1.05);*/
+/*    transition: 0.1ms ease-in!important;*/
+/*}*/
+
+.price-card button:hover
+{
+    border: 1px solid var(--blue-color);
     color: white;
+    background-color: var(--blue-color);
+}
+.price-main-btn
+{
+    background-color: var(--background-color);
+    color: var(--blue-color);
+    border: 1px solid var(--blue-color);
+}
+.price-main-btn:hover
+{
+    color: white;
+    border: 1px solid var(--background-color);
+    background-color: transparent;
+    transition: 0.5ms ease-in;
 }
 .card-button:hover{
     background-color: initial;
