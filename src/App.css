@@ -49,6 +49,10 @@
 .bg-blue {
     background-color: var(--blue-color)
 }
+.bg-light-blue
+{
+    background-color: #E9F2FF;
+}
 
 .bg-white-2 {
     background-color: var(--white-2-color);
@@ -209,6 +213,18 @@ a{
     border: 1px solid var(--background-color);
     background-color: transparent;
     transition: 0.5ms ease-in;
+}
+.calc-btn
+{
+    border: 1px solid var(--blue-color);
+    color: white;
+    background-color: var(--blue-color);
+}
+.calc-btn:hover
+{
+    border: 1px solid var(--blue-color);
+    color: var(--blue-color);
+    background-color: transparent;
 }
 .card-button:hover{
     background-color: initial;
