@@ -137,10 +137,20 @@ h4 {
 .border-30 {
     border-radius: 30px
 }
+.border-40 {
+    border-radius: 40px;
+}
 .border-46 {
     border-radius: 46px;
 }
-
+.border-btn
+{
+    border: 1px solid #E9E9E9;
+}
+.border-btn:hover
+{
+    border: 1px solid var(--blue-color);
+}
 /* Место для переопределения стилей Bootstrap*/
 .nav-link {
     color: var(--primary-color)

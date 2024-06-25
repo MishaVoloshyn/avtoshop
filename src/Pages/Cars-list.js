@@ -6,8 +6,6 @@ import {HeaderDark} from "../Components/Header-dark-1";
 import {Footer} from "../Components/Footer";
 
 export const CarsList = () => (
-
-
     <>
         <HeaderDark/>
         <section className="mt-5">
