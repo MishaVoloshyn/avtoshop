@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
@@ -22,11 +22,13 @@ import { AboutUs } from "./Pages/AboutUs";
 import { Contacts } from "./Pages/Contacts";
 import { LoginForm } from "./Pages/LoginForm";
 
-
 function App() {
     return (
         <BrowserRouter>
             <Routes>
+                {/* Redirect from root path to index */}
+                <Route path="/" element={<Navigate to="index" />} />
+
                 {/* Главная страница - index */}
                 <Route path="index" element={<MainPage />} />
 
