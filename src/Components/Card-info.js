@@ -24,7 +24,8 @@ import vinIcon from '../assets/image/car-info/vin-icon.svg';
 import phoneIcon from '../assets/image/car-info/phone-icon.svg';
 import offerIcon from '../assets/image/car-info/offer-icon.svg';
 import getDirectionIcon from '../assets/image/car-info/get-direction-icon.svg';
-import {Footer} from "./Footer";
+
+import slider1Img from '../assets/image/car-info/slider-img/1.png';
 import {Map} from "./map";
 
 export function CarInfo() {
