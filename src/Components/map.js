@@ -258,13 +258,13 @@ export function Map() {
                     </div>
                 </div>
             </div>
-            <div className="card">
-                <div className="card-body">
-                    <div className="row">
-                        {/* The script functionality is now handled in useEffect */}
-                    </div>
-                </div>
-            </div>
+            {/*<div className="card">*/}
+            {/*    <div className="card-body">*/}
+            {/*        <div className="row">*/}
+            {/*            /!* The script functionality is now handled in useEffect *!/*/}
+            {/*        </div>*/}
+            {/*    </div>*/}
+            {/*</div>*/}
         </>
     );
 }

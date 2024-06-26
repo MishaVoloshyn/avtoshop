@@ -132,8 +132,8 @@ export function CarInfo() {
 
                             <div className="col-lg-3 col-6 fw-bold pb-3 ft-18"> Interior</div>
                             <div className="col-lg-3 col-6 fw-bold pb-3 ft-18"> Safety</div>
-                            <div className="col-lg-3 col-6 fw-bold pb-3 ft-18"> Exterior</div>
-                            <div className="col-lg-3 col-6 fw-bold pb-3 ft-18"> Comfort&Convenience</div>
+                            <div className="col-lg-3 col-6 fw-bold pb-3 ft-18 d-none d-lg-block"> Exterior</div>
+                            <div className="col-lg-3 col-6 fw-bold pb-3 ft-18 d-none d-lg-block"> Comfort&Convenience</div>
 
 
                             <div className="col-lg-3 col-6 pb-3"> Air Conditioner </div>
@@ -253,6 +253,91 @@ export function CarInfo() {
 
                         </div>
                         <hr/>
+
+
+
+
+                        <div className="row pt-4 pb-4">
+
+                            <div className="col-12 fw-bold ft-26 pb-2">
+                                1 Review
+                            </div>
+
+                            <div className="col-4 pb-2">
+                                <img src="" alt=""/>
+                            </div>
+
+                            <div className="col-8 pb-2">
+                               <div className="row">
+                                   <div className="col-12 col-lg-6">
+                                       <div className="row">
+                                           <div className="col-8 pb-2">
+                                               Comfort:
+                                           </div>
+                                           <div className="col-4 text-end pb-2">
+                                               5.0
+                                           </div>
+                                           <div className="col-8 pb-2">
+                                               Exterior Styling:
+                                           </div>
+                                           <div className="col-4 text-end pb-2">
+                                               4.0
+                                           </div>
+                                           <div className="col-8 pb-2">
+                                               Performance:
+                                           </div>
+                                           <div className="col-4 text-end pb-2">
+                                               5.0
+                                           </div>
+
+                                       </div>
+
+                                   </div>
+                                   <div className="col-12 col-lg-6 pb-2">
+                                       <div className="row">
+                                           <div className="col-8">
+                                               Interior Design:
+                                           </div>
+                                           <div className="col-4 text-end pb-2">
+                                               5.0
+                                           </div>
+                                           <div className="col-8 pb-2">
+                                               Value For Money:
+                                           </div>
+                                           <div className="col-4 text-end pb-2">
+                                               5.0
+                                           </div>
+                                           <div className="col-8 pb-2">
+                                               Reliability:
+                                           </div>
+                                           <div className="col-4 text-end pb-2">
+                                               5.0
+                                           </div>
+
+                                       </div>
+                                   </div>
+
+                               </div>
+                            </div>
+
+
+                        </div>
+                        <hr/>
+
+
+                        <div className="row pt-4 pb-4">
+
+                            <div className="col-12 fw-bold ft-26 pb-2">
+                                Add a review
+                            </div>
+
+                            <div className="col-4 pb-2">
+                                <img src="" alt=""/>
+                            </div>
+
+
+                        </div>
+
 
 
 
