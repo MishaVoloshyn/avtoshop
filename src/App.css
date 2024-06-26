@@ -685,6 +685,91 @@ input::placeholder {
 }
 
 
+/*--------------------------------------------------------------
+# Frequently Asked Questions
+--------------------------------------------------------------*/
+
+.faq .section-title h2,
+.faq .section-title p {
+    color: #fff;
+}
+
+.faq .section-title h2::after {
+    background: rgba(255, 255, 255, 0.6);
+}
+
+.faq .faq-list {
+    /*padding: 0 100px;*/
+}
+
+.faq .faq-list ul {
+    padding: 0;
+    list-style: none;
+}
+
+.faq .faq-list li+li {
+    margin-top: 15px;
+}
+
+.faq .faq-list li {
+    padding: 30px;
+    color: rgba(var(--default-color-rgb), 0.7);
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 16px;
+    border: 1px solid rgb(233,233,233,56%);
+    position: relative;
+}
+
+.faq .faq-list a {
+    display: block;
+    position: relative;
+    line-height: 24px;
+    outline: none;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.faq .faq-list .icon-show,
+.faq .faq-list .icon-close {
+    font-size: 24px;
+    position: absolute;
+    color: var(--primary-color);
+    right: 0;
+    top: 0;
+}
+
+.faq .faq-list p {
+    margin-bottom: 0;
+    padding: 10px 0 0 0;
+}
+
+.faq .faq-list .icon-show {
+    display: none;
+}
+
+.faq .faq-list a.collapsed {
+    color: #2c4964;
+}
+
+.faq .faq-list a.collapsed:hover {
+    color: var(--primary-color);
+}
+
+.faq .faq-list a.collapsed .icon-show {
+    display: inline-block;
+}
+
+.faq .faq-list a.collapsed .icon-close {
+    display: none;
+}
+
+@media (max-width: 1200px) {
+    .faq .faq-list {
+        padding: 0;
+    }
+}
+
+
 
 
 

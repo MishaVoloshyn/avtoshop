@@ -8,6 +8,24 @@ import shareIcon from '../assets/image/car-info/share-icon.svg';
 import saveIcon from '../assets/image/car-info/save-icon.svg';
 import compareIcon from '../assets/image/car-info/compare-icon.svg';
 
+import bodyIcon from '../assets/image/car-info/body-icon.svg';
+import mileageBlackIcon from '../assets/image/car-info/mileage-black-icon.svg';
+import petrolBlackIcon from '../assets/image/car-info/petrol-black-icon.svg';
+import yearIcon from '../assets/image/car-info/year-icon.svg';
+import transmissionIcon from '../assets/image/car-info/transmission-icon.svg';
+import driveTypeIcon from '../assets/image/car-info/drive-type-icon.svg';
+import conditionIcon from '../assets/image/car-info/condition-icon.svg';
+import engineIcon from '../assets/image/car-info/engine-size-icon.svg';
+import doorIcon from '../assets/image/car-info/door-icon.svg';
+import cylinderIcon from '../assets/image/car-info/cylinder-icon.svg';
+import colorIcon from '../assets/image/car-info/color-icon.svg';
+import vinIcon from '../assets/image/car-info/vin-icon.svg';
+import phoneIcon from '../assets/image/car-info/phone-icon.svg';
+import offerIcon from '../assets/image/car-info/offer-icon.svg';
+import getDirectionIcon from '../assets/image/car-info/get-direction-icon.svg';
+
+
+
 export function CarInfo() {
     return(
         <section className="mt-5">

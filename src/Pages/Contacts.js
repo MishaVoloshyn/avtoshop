@@ -3,6 +3,7 @@ import {HeaderDark} from "../Components/Header-dark-1";
 import {Footer} from "../Components/Footer";
 import React from "react";
 import {Map} from "../Components/map";
+import {GetInTouch} from "../Components/Get-In-Touch";
 
 export const Contacts = () => (
     <>
@@ -16,9 +17,11 @@ export const Contacts = () => (
                     </ol>
                 </nav>
                 <h1 className="dm-sans-bold">Contact Us</h1>
+                <Map/>
+                <GetInTouch/>
+
             </div>
         </section>
-        <Map/>
         <Footer/>
         <Outlet/>
     </>

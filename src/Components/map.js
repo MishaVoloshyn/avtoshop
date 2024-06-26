@@ -219,25 +219,25 @@ export function Map() {
     return (
         <>
             <nav>
-                <div className="container pt-5 mt-0 mt-md-5">
-                    <h2 className="fh2 mont-extra-bold primary-color">Магазини по регіонам</h2>
+                <div className="container pt-5 mt-0 mt-md-2">
+                    <h2 className="fh2 mont-extra-bold primary-color mb-3">Stores by region</h2>
                     <div className="nav nav-tabs nav-pills nav-fill bg-tab mb-5 nav-tabs-scrollable" id="nav-tab"
                          role="tablist">
                         <button className="nav-link active" id="nav-home-tab" data-bs-toggle="tab"
                                 data-bs-target="#nav-home"
-                                type="button" role="tab" aria-controls="nav-home" aria-selected="true">Діючі магазини
+                                type="button" role="tab" aria-controls="nav-home" aria-selected="true">Operating stores
                         </button>
                         <button className="nav-link" id="nav-profile-tab" data-bs-toggle="tab"
                                 data-bs-target="#nav-profile"
-                                type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Майбутні магазини
+                                type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Future stores
                         </button>
                         <button className="nav-link" id="nav-contact-tab" data-bs-toggle="tab"
                                 data-bs-target="#nav-contact"
-                                type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Ми повернемось
+                                type="button" role="tab" aria-controls="nav-contact" aria-selected="false">We will be back
                         </button>
                         <button className="nav-link" id="nav-all-tab" data-bs-toggle="tab" data-bs-target="#nav-all"
                                 type="button"
-                                role="tab" aria-controls="nav-all" aria-selected="false">Усі магазини
+                                role="tab" aria-controls="nav-all" aria-selected="false">All stores
                         </button>
                     </div>
                 </div>
