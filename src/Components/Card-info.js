@@ -27,8 +27,6 @@ import getDirectionIcon from '../assets/image/car-info/get-direction-icon.svg';
 import {Footer} from "./Footer";
 import {Map} from "./map";
 
-
-
 export function CarInfo() {
     return(
         <section className="mt-5">

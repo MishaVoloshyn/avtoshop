@@ -4,8 +4,8 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 import "slick-carousel/slick/slick.css";
+import 'boxicons/css/boxicons.min.css';
 import "slick-carousel/slick/slick-theme.css";
-
 import './App.css';
 
 import { MainPage } from "./Pages/MainPage";

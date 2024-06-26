@@ -825,7 +825,10 @@ input::placeholder {
     }
 }
 
-
+.line-120
+{
+    line-height: 120%;
+}
 
 
 
