@@ -108,6 +108,9 @@ h4 {
 .ft-20{
     font-size: 20px;
 }
+.ft-26{
+    font-size: 26px;
+}
 
 .ft-38{
     font-size: 38px;
@@ -151,6 +154,22 @@ h4 {
 {
     border: 1px solid var(--blue-color);
 }
+.border-btn1
+{
+    border: 1px solid #E9E9E9;
+}
+.border-btn1:hover
+{
+    border: 1px solid var(--blue-color);
+}
+.line-through {
+    /* Перечёркнутый текст */
+    text-decoration: line-through;
+}
+.h55{
+    height: 55px;
+}
+
 /* Место для переопределения стилей Bootstrap*/
 .nav-link {
     color: var(--primary-color)
