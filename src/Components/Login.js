@@ -4,7 +4,7 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 
 export function Login() {
     return (
-        <div className="container form-container">
+        <div className="container form-container py-5">
             <ul className="nav nav-tabs mb-3">
                 <li className="nav-item">
                     <a className="nav-link dm-sans-medium ft-16" href="#sign-in">Sign in</a>
@@ -16,19 +16,20 @@ export function Login() {
             <div>
                 <div>
                     <form>
-                        <div className="mb-3">
-                            <label className="form-label">Username Or Email</label>
-                            <input type="email" className="form-control" placeholder="ali..."/>
+
+                        <div className="form-floating mb-3">
+                            <input type="email" className="form-control"/>
+                            <label htmlFor="floatingInput2">Username Or Email</label>
                         </div>
-                        <div className="mb-3 position-relative">
-                            <label className="form-label">Password</label>
-                            <input type="password" className="form-control" id="userPassword" placeholder="***"/>
+                        <div className="mb-3 position-relative form-floating">
+                            <input type="password" className="form-control" id="userPassword"/>
+                            <label className="form-label" htmlFor="floatingInput2">Password</label>
                             <span className="position-absolute end-0 top-50 translate-middle-x me-2">
                                 <i className="bi bi-eye-slash"></i>
                             </span>
                         </div>
                         <div className="form-check mb-3">
-                            <div className="row">
+                        <div className="row">
                                 <div className="col-6">
                                     <input type="checkbox" className="form-check-input"/>
                                     <label className="form-check-label dm-sans-regular ft-15">Keep me signed in</label>
