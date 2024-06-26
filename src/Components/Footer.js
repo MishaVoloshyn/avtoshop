@@ -24,7 +24,7 @@ export function Footer() {
                 </div>
 
                 <div className="row pt-5">
-                    <div className="col-3 white-2-color dm-sans-regular">
+                    <div className="col-lg-3 col-sm-4 col-6 col white-2-color dm-sans-regular">
                         <h4 className="white-2-color pb-2">Company</h4>
                         <div className="ft-15">
                             <p>About Us</p>
@@ -36,7 +36,7 @@ export function Footer() {
                         </div>
 
                     </div>
-                    <div className="col-3 white-2-color dm-sans-regular">
+                    <div className="col-lg-3 col-4 d-none d-sm-block white-2-color dm-sans-regular">
                         <h4 className="white-2-color pb-2">Our Brands</h4>
                         <div className="ft-15">
                             <p>Toyota</p>
@@ -50,7 +50,7 @@ export function Footer() {
                         </div>
 
                     </div>
-                    <div className="col-3 white-2-color dm-sans-regular">
+                    <div className="col-lg-3 col-4 d-none d-lg-block white-2-color dm-sans-regular">
                         <h4 className="pb-2">Vehicles Type</h4>
                         <div className="ft-15">
                             <p>Sedan</p>
@@ -64,7 +64,7 @@ export function Footer() {
                         </div>
 
                     </div>
-                    <div className="col-3 white-2-color">
+                    <div className="col-lg-3 col-sm-4 col-6 white-2-color">
                         <h4 className=" pb-2">Our Mobile App</h4>
                         <p className="ft-15  dm-sans-regular">APPLE</p>
                         <p className="ft-15  dm-sans-regular">GOOGLE</p>
@@ -87,15 +87,15 @@ export function Footer() {
                 </div>
                 <hr/>
                 <div className="row">
-                    <div className="col-12 col-lg-6">
+                    <div className="col-12 col-lg-6 d-flex justify-content-lg-start justify-content-center">
                         <p className="ft-15 dm-sans-regular text-white">© 2024 exemple.com. All rights reserved.</p>
                     </div>
-                    <div className="col-12 col-lg-6 text-end">
+                    <div className="col-12 col-lg-6 text-end ">
                         <div className="row justify-content-end">
-                            <div className="col-3 text-end">
+                            <div className="col-lg-4 col-12 text-lg-end text-center">
                                 <a href=""><p className="ft-15 dm-sans-regular text-white">Terms & Conditions</p></a>
                             </div>
-                            <div className="col-3">
+                            <div className="col-lg-3 col-12 text-lg-end text-center">
                                 <a href=""><p className="ft-15 dm-sans-regular text-white">Privacy Notice</p></a>
                             </div>
                         </div>
