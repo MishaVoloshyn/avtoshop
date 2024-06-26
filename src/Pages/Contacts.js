@@ -5,6 +5,7 @@ import React from "react";
 import {Map} from "../Components/map";
 import {GetInTouch} from "../Components/Get-In-Touch";
 import {UsInfo} from "../Components/us-info";
+import CarouselVideoExample from "../Components/video-slider";
 
 export const Contacts = () => (
     <>
@@ -26,6 +27,9 @@ export const Contacts = () => (
         </section>
         <Footer/>
         <Outlet/>
+
+
+        <CarouselVideoExample/>
     </>
 
 );
