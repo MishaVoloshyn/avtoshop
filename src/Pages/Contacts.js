@@ -2,6 +2,7 @@ import { Outlet  } from 'react-router-dom';
 import {HeaderDark} from "../Components/Header-dark-1";
 import {Footer} from "../Components/Footer";
 import React from "react";
+import {Map} from "../Components/map";
 
 export const Contacts = () => (
     <>
@@ -17,6 +18,7 @@ export const Contacts = () => (
                 <h1 className="dm-sans-bold">Contact Us</h1>
             </div>
         </section>
+        <Map/>
         <Footer/>
         <Outlet/>
     </>
