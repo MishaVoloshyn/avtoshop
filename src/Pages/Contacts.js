@@ -4,6 +4,7 @@ import {Footer} from "../Components/Footer";
 import React from "react";
 import {Map} from "../Components/map";
 import {GetInTouch} from "../Components/Get-In-Touch";
+import {UsInfo} from "../Components/us-info";
 
 export const Contacts = () => (
     <>
@@ -19,6 +20,7 @@ export const Contacts = () => (
                 <h1 className="dm-sans-bold">Contact Us</h1>
                 <Map/>
                 <GetInTouch/>
+                <UsInfo/>
 
             </div>
         </section>
