@@ -5,7 +5,7 @@ import {Team} from "../Components/Team";
 import {Application} from "../Components/Application";
 import {SingleImg1} from "../Components/single-img-1";
 import {Benefits1} from "../Components/benefits-1";
-import {HeaderLight} from "../Components/Header-light";
+import {HeaderDark} from "../Components/Header-dark-1";
 import {Footer} from "../Components/Footer";
 import {Rating} from "../Components/Customer-rating";
 import {BlogList1} from "../Components/Blog-1";
@@ -17,7 +17,7 @@ export const MainPage = () => (
     <>
         {/*<HeaderLight/>*/}
 
-        <HeaderLight/>
+        <HeaderDark/>
         <CarouselVideoExample/>
         <Brands/>
         <CarsList/>
