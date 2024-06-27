@@ -29,7 +29,6 @@ import adminPhoto from '../assets/image/car-info/admin-photo.png';
 import slider1Img from '../assets/image/car-info/slider-img/1.png';
 import {Map} from "./map";
 import {FinancingCalc} from "./Financing-calc";
-import ReviewComponent from "./Review-from-card";
 
 export function CarInfo() {
     return(
@@ -274,87 +273,6 @@ export function CarInfo() {
                         </div>
                         <hr/>
                         <FinancingCalc/>
-                        <ReviewComponent/>
-                        <div className="row pt-4 pb-4">
-
-                            <div className="col-12 fw-bold ft-26 pb-2">
-                                1 Review
-                            </div>
-
-                            <div className="col-4 pb-2">
-                                <img src="" alt=""/>
-                            </div>
-
-                            <div className="col-8 pb-2">
-                               <div className="row">
-                                   <div className="col-12 col-lg-6">
-                                       <div className="row">
-                                           <div className="col-8 pb-2">
-                                               Comfort:
-                                           </div>
-                                           <div className="col-4 text-end pb-2">
-                                               5.0
-                                           </div>
-                                           <div className="col-8 pb-2">
-                                               Exterior Styling:
-                                           </div>
-                                           <div className="col-4 text-end pb-2">
-                                               4.0
-                                           </div>
-                                           <div className="col-8 pb-2">
-                                               Performance:
-                                           </div>
-                                           <div className="col-4 text-end pb-2">
-                                               5.0
-                                           </div>
-
-                                       </div>
-
-                                   </div>
-                                   <div className="col-12 col-lg-6 pb-2">
-                                       <div className="row">
-                                           <div className="col-8">
-                                               Interior Design:
-                                           </div>
-                                           <div className="col-4 text-end pb-2">
-                                               5.0
-                                           </div>
-                                           <div className="col-8 pb-2">
-                                               Value For Money:
-                                           </div>
-                                           <div className="col-4 text-end pb-2">
-                                               5.0
-                                           </div>
-                                           <div className="col-8 pb-2">
-                                               Reliability:
-                                           </div>
-                                           <div className="col-4 text-end pb-2">
-                                               5.0
-                                           </div>
-
-                                       </div>
-                                   </div>
-
-                               </div>
-                            </div>
-
-
-                        </div>
-                        <hr/>
-
-
-                        <div className="row pt-4 pb-4">
-
-                            <div className="col-12 fw-bold ft-26 pb-2">
-                                Add a review
-                            </div>
-
-                            <div className="col-4 pb-2">
-                                <img src="" alt=""/>
-                            </div>
-
-
-                        </div>
 
                     </div>
                     <div className="col-12 col-lg-4 ">
