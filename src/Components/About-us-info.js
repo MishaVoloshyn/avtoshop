@@ -1,16 +1,12 @@
 import React from 'react';
 import img1 from '../assets/image/about-us-info/1-img.png';
 import img2 from '../assets/image/about-us-info/2-img.png';
-import img3 from '../assets/image/about-us-info/3-img.png';
-import img4 from '../assets/image/about-us-info/4-img.png';
-import img5 from '../assets/image/about-us-info/5-img.png';
-import img6 from '../assets/image/about-us-info/6-img.png';
-
 
 export function AboutUsInfo() {
     return(
         <section className="my-5">
             <div className="container">
+                {/* --------------- text section  -------------*/}
                 <div className="row">
                     <div className="col-12 col-md-5 text-start">
                         <h2 className="dm-sans-bold">
@@ -41,6 +37,9 @@ export function AboutUsInfo() {
 
                     </div>
                 </div>
+                {/* --------------- end text section  -------------*/}
+
+                {/* --------------- image section  -------------*/}
                 <div className="row gx-3 gy-3 mt-2 mt-md-5">
                     <div className="col-12 col-lg-7">
                         <img src={img1} className="img-fluid" alt=""/>
@@ -49,6 +48,7 @@ export function AboutUsInfo() {
                         <img src={img2} className="img-fluid w-100" alt=""/>
                     </div>
                 </div>
+                {/* --------------- end image section  -------------*/}
             </div>
 
         </section>
