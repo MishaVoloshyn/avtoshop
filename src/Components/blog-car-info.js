@@ -95,8 +95,8 @@ export function BlogCarInfo() {
             </div>
 
             <div className="row align-items-center">
-                <hr className="p-3"/>
-                <div className="col-md-6">
+                <hr className="p-2"/>
+                <div className="col-md-6 pt-4">
                     <div className="d-flex align-items-center">
                         <p className="dm-sans-medium ft-15 mb-0 me-3">Share this post</p>
                         <div className="d-flex">
@@ -108,15 +108,15 @@ export function BlogCarInfo() {
                     </div>
                 </div>
 
-                <div className="col-md-6 d-flex align-items-center">
-                    <div className="col-6">
+                <div className="col-md-6 d-flex align-items-center pt-4">
+                    <div className="col-5">
                         <p className="dm-sans-medium ft-13 little-blocks p-2">Exterior</p>
                     </div>
-                    <div className="col-3">
-                        <p className="dm-sans-medium ft-13 little-blocks p-2">Fuel System</p>
+                    <div className="col-4">
+                        <p className="dm-sans-medium ft-13 little-blocks p-2 text-center">Fuel System</p>
                     </div>
                     <div className="col-3">
-                        <p className="dm-sans-medium ft-13 little-blocks p-2">Sound</p>
+                        <p className="dm-sans-medium ft-13 little-blocks p-2 text-center">Sound</p>
                     </div>
                 </div>
                 <hr className="p-3"/>

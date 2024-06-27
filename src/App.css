@@ -79,6 +79,9 @@ body {
     .text-video-slider1 {
         font-size: 70px;
     }
+    .calculator {
+        font-size: 70px;
+    }
     .text-video-slider2 {
         font-size: 40px;
     }
@@ -100,6 +103,9 @@ body {
     .text-video-slider1 {
         font-size: 50px;
     }
+    .calculator {
+        font-size: 60px;
+    }
     .text-video-slider2 {
         font-size: 33px;
     }
@@ -113,6 +119,9 @@ body {
     .text-video-slider1 {
         font-size: 35px;
     }
+    .calculator {
+        font-size: 50px;
+    }
     .text-video-slider2 {
         font-size: 28px;
     }
@@ -123,6 +132,9 @@ body {
 @media screen and (max-width: 576px) {
     .text-video-slider1 {
         font-size: 25px;
+    }
+    .calculator {
+        font-size: 35px;
     }
     .text-video-slider2 {
         font-size: 15px;

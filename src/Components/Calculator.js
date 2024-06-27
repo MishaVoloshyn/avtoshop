@@ -29,11 +29,11 @@ export function Calculator() {
     };
 
     return (
-        <section className="my-5">
-            <div className="container border border-16">
+        <section className="my-5 p-4">
+            <div className="container border border-16 ">
                 <div className="row">
                     <div className="col-12 col-md-8 py-5 px-5">
-                        <h1 className="dm-sans-bold">Auto Loan Calculator</h1>
+                        <h1 className="dm-sans-bold text-video-slider1">Auto Loan Calculator</h1>
                         <p className="ft-15">
                             Use our loan calculator to calculate payments over the life of your loan. Enter your information to
                             see how much your monthly payments could be. You can adjust length of loan, down payment and
