@@ -1,7 +1,7 @@
 import React from "react";
 export function Footer() {
     return (
-        <div className="bg-primary1">
+        <div className="bg-primary1 p-3 p-md-0">
             <div className="container pt-5 pb-5">
                 <div className="row my-3 pb-4 border-bottom">
                     <div className="col-12 col-lg-6 text-white">
@@ -88,7 +88,7 @@ export function Footer() {
                 <hr/>
                 <div className="row">
                     <div className="col-12 col-lg-6 d-flex justify-content-lg-start justify-content-center">
-                        <p className="ft-15 dm-sans-regular text-white">© 2024 exemple.com. All rights reserved.</p>
+                        <p className="ft-15 dm-sans-regular text-white text-center text-lg-start">© 2024 exemple.com. All rights reserved.</p>
                     </div>
                     <div className="col-12 col-lg-6 text-end ">
                         <div className="row justify-content-end">

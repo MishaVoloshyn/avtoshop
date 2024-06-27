@@ -46,7 +46,7 @@ export function CarInfo() {
                 <p className="ft-15">2.0 D5 PowerPulse Momentum 5dr AWD Geartronic Estate</p>
 
                 <div className="row">
-                    <div className="col-12 col-md-8 col-lg-5">
+                    <div className="col-12 col-md-8 col-lg-6">
                         <div className="row gy-2 gx-1">
                             <div className="col-6 col-md-3">
                                 <div className="blue-color border-40 bg-light-blue py-2 px-2 text-center ft-15"><img src={calendarIcon} alt=""/> 2021</div>
@@ -63,16 +63,16 @@ export function CarInfo() {
                         </div>
 
                     </div>
-                    <div className="col-12 col-md-4 col-lg-7">
+                    <div className="col-12 col-md-4 col-lg-6">
                         <div className="row gy-2 gx-1 d-flex justify-content-end mt-2 mt-md-0">
-                            <div className="col-12 col-md-2 col-lg-3">
-                                <div className="text-start text-md-end ft-15">Share <button className="btn border-btn rounded-5"><img src={shareIcon} className="align-self-auto" alt=""/></button></div>
+                            <div className="col-4 col-md-4 col-lg-3">
+                                <div className=" text-center ft-15">Share <button className="btn border-btn rounded-5"><img src={shareIcon} className="align-self-auto" alt=""/></button></div>
                             </div>
-                            <div className="col-12 col-md-3 col-lg-3">
-                                <div className="text-start text-md-end ft-15">Save <button className="btn border-btn rounded-5"><img src={saveIcon} className="align-self-auto" alt=""/></button></div>
+                            <div className="col-4 col-md-4 col-lg-3">
+                                <div className=" text-center ft-15">Save <button className="btn border-btn rounded-5"><img src={saveIcon} className="align-self-auto" alt=""/></button></div>
                             </div>
-                            <div className="col-12 col-md-2 col-lg-3">
-                                <div className="text-start text-md-end ft-15">Compare <button className="btn border-btn rounded-5"><img src={compareIcon} className="align-self-auto" alt=""/></button></div>
+                            <div className="col-4 col-md-4 col-lg-3">
+                                <div className=" text-center ft-15">Compare <button className="btn border-btn rounded-5"><img src={compareIcon} className="align-self-auto" alt=""/></button></div>
                             </div>
                         </div>
 
@@ -95,33 +95,33 @@ export function CarInfo() {
                         <div className="row pt-4 pb-4">
                             <div className="col-lg-3 col-6 fw-bold pb-3"><img src={bodyIcon} alt=""/> Body:</div>
                             <div className="col-lg-3 col-6"> Sedan</div>
-                            <div className="col-lg-3 col-6 fw-bold"><img src={conditionIcon} alt=""/> Condition:</div>
+                            <div className="col-lg-3 col-6 fw-bold pb-3"><img src={conditionIcon} alt=""/> Condition:</div>
                             <div className="col-lg-3 col-6"> Used</div>
 
 
                             <div className="col-lg-3 col-6 fw-bold pb-3"><img src={mileageBlackIcon} alt=""/> Mileage:</div>
                             <div className="col-lg-3 col-6"> 250</div>
-                            <div className="col-lg-3 col-6 fw-bold"><img src={engineIcon} alt=""/> Engine Size:</div>
+                            <div className="col-lg-3 col-6 fw-bold pb-3"><img src={engineIcon} alt=""/> Engine Size:</div>
                             <div className="col-lg-3 col-6"> 4.0</div>
 
                             <div className="col-lg-3 col-6 fw-bold pb-3"><img src={petrolBlackIcon} alt=""/> Fuel Type:</div>
                             <div className="col-lg-3 col-6"> Petrol</div>
-                            <div className="col-lg-3 col-6 fw-bold"><img src={doorIcon} alt=""/> Door:</div>
+                            <div className="col-lg-3 col-6 fw-bold pb-3"><img src={doorIcon} alt=""/> Door:</div>
                             <div className="col-lg-3 col-6"> 4 Doors</div>
 
                             <div className="col-lg-3 col-6 fw-bold pb-3"><img src={yearIcon} alt=""/> Year:</div>
                             <div className="col-lg-3 col-6"> 2021</div>
-                            <div className="col-lg-3 col-6 fw-bold"><img src={cylinderIcon} alt=""/> Cylinder:</div>
+                            <div className="col-lg-3 col-6 fw-bold pb-3"><img src={cylinderIcon} alt=""/> Cylinder:</div>
                             <div className="col-lg-3 col-6"> 12</div>
 
                             <div className="col-lg-3 col-6 fw-bold pb-3"><img src={transmissionIcon} alt=""/> Transmission:</div>
                             <div className="col-lg-3 col-6"> Manual</div>
-                            <div className="col-lg-3 col-6 fw-bold"><img src={colorIcon} alt=""/> Color:</div>
+                            <div className="col-lg-3 col-6 fw-bold pb-3"><img src={colorIcon} alt=""/> Color:</div>
                             <div className="col-lg-3 col-6"> Black</div>
 
                             <div className="col-lg-3 col-6 fw-bold pb-3"><img src={driveTypeIcon} alt=""/> Drive Type:</div>
                             <div className="col-lg-3 col-6"> Rear-Wheel Drive</div>
-                            <div className="col-lg-3 col-6 fw-bold"><img src={vinIcon} alt=""/> VIN:</div>
+                            <div className="col-lg-3 col-6 fw-bold pb-3"><img src={vinIcon} alt=""/> VIN:</div>
                             <div className="col-lg-3 col-6"> FCB123792</div>
                         </div>
                         <hr/>
@@ -384,7 +384,7 @@ export function CarInfo() {
                             </div>
                         </div>
 
-                        <div className="pt-4">
+                        <div className="pt-4 pb-5">
                             <div className="border-btn1 border-16 ">
                                 <div className="row m-3 pt-2 pb-2">
 
