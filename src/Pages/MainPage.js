@@ -15,8 +15,6 @@ import CarouselVideoExample from "../Components/video-slider";
 
 export const MainPage = () => (
     <>
-        {/*<HeaderLight/>*/}
-
         <HeaderDark/>
         <CarouselVideoExample/>
         <Brands/>
@@ -31,7 +29,6 @@ export const MainPage = () => (
         <SingleImg2/>
         <Footer/>
     </>
-
 );
 
 

@@ -16,19 +16,24 @@ const CarouselExampleDark = () => {
             <div className="carousel-inner">
                 <div className="carousel-item active" data-bs-interval="10000">
                     <img src={slider1} className="d-block w-100" alt="First slide"/>
-                    <div className="carousel-caption d-none d-md-block text-start text-white top-0 mt-5 pt-5 mb-0">
-                        <h2 className="mt-5 pt-5">$35,000</h2>
-                        <h1>Mercedes-Benz, C Class</h1>
-                        <div className="text-white">
-                            <div className="d-inline-block me-3"><img src={petrolIcon} alt=""/> Petrol </div>
-                            <div className="d-inline-block me-3"><img src={milesIcon} alt=""/> 100 Miles </div>
-                            <div className="d-inline-block me-3"><img src={typeIcon} alt=""/> Automatic </div>
+                    <div className="carousel-caption  d-flex align-items-center text-start text-white top-0 mb-0">
+                        <div className="">
+                            <div className="inner-block ">
+                                <h2 className="text-video-slider2">$35,000</h2>
+                                <h1 className="text-video-slider1">Mercedes-Benz, C Class</h1>
+                                <div className="text-white d-none d-sm-block">
+                                    <div className="d-inline-block me-3"><img src={petrolIcon} alt=""/> Petrol </div>
+                                    <div className="d-inline-block me-3"><img src={milesIcon} alt=""/> 100 Miles </div>
+                                    <div className="d-inline-block me-3"><img src={typeIcon} alt=""/> Automatic </div>
+                                </div>
+                                <div className="text-start d-none d-sm-block  mt-4">
+                                    <a className="btn btn  bg-white text-black">
+                                        Learn More <i className="bi bi-arrow-up-right"></i>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
-                        <div className="text-start mt-4">
-                            <a className="btn btn-lg bg-white text-black">
-                                Learn More <i className="bi bi-arrow-up-right"></i>
-                            </a>
-                        </div>
+
                     </div>
                 </div>
                 <div className="carousel-item" data-bs-interval="2000">
