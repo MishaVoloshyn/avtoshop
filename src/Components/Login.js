@@ -27,7 +27,11 @@ export function Login() {
             setError("Password must be at least 8 characters long and include an uppercase letter, a lowercase letter, a number, and a special character");
         } else {
             setError("");
-            console.log("Form submitted", { email, password });
+            const atIndex = email.indexOf('@');
+            const username = email.substring(0, atIndex);
+            alert(`Form submitted! Welcome, ${username}`);
+
+
         }
     };
 
@@ -51,7 +55,7 @@ export function Login() {
                                 value={email}
                                 onChange={(e) => setEmail(e.target.value)}
                             />
-                            <label htmlFor="floatingInput2">Username Or Email</label>
+                            <label htmlFor="floatingInput2">Email</label>
                         </div>
                         <div className="mb-3 position-relative form-floating">
                             <input
@@ -85,21 +89,21 @@ export function Login() {
                     <div className="or-divider dm-sans-regular ft-16">
                         <span>OR</span>
                     </div>
-                    <div className="row">
-                        <div className="col-lg-6 col-sm-6 d-grid mb-3">
-                            <button type="button" className="btn btn-outline-primary social-btn social-btn-facebook dm-sans-regular ft-14">
-                                <i className="bi bi-facebook me-2"></i>Login with Facebook
+                    <div className="row gx-1">
+                        <div className="col-6 d-grid mb-3">
+                            <button type="button" className="btn btn-outline-primary social-btn social-btn-facebook dm-sans-regular ft-14 py-3">
+                                <i className="bi bi-facebook"></i> Login with Facebook
                             </button>
                         </div>
-                        <div className="col-lg-6 col-sm-6 d-grid mb-3">
-                            <button type="button" className="btn social-btn social-btn-google dm-sans-regular ft-14">
-                                <i className="bi bi-google me-2"></i>Login with Google
+                        <div className="col-6 d-grid mb-3">
+                            <button type="button" className="btn social-btn social-btn-google dm-sans-regular ft-14 py-3">
+                                <i className="bi bi-google"></i> Login with Google
                             </button>
                         </div>
                     </div>
                     <div className="p-3 bg-light rounded dm-sans-regular ft-15 info-block">
-                        <p>Username: <strong>demo</strong></p>
-                        <p>Password: <strong>demo</strong></p>
+                        <p>Username: <strong>demo@gmail.com</strong></p>
+                        <p>Password: <strong>Demo123!</strong></p>
                     </div>
                 </div>
             </div>

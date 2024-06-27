@@ -11,8 +11,9 @@ export const FAQGeneral = () => {
                         <div className="faq-list">
                             <ul>
                                 <li data-aos="fade-up" data-aos-delay="200">
-                                    <a data-bs-toggle="collapse" href="#faq-list-1" className="collapsed ft-18 dm-sans-medium line-120">
-                                        Does BoxCar own the cars I see online or are they owned by other.                                        <i className="bx bx-plus icon-show"></i>
+                                    <a data-bs-toggle="collapse" href="#faq-list-1" className="collapsed ft-18 dm-sans-medium line-120 px-0">
+                                        Does BoxCar own the cars I see online or are they owned by other.
+                                        <i className="bx bx-plus icon-show"></i>
                                         <i className="bx bx-minus icon-close"></i>
                                     </a>
                                     <div id="faq-list-1" className="collapse" data-bs-parent=".faq-list">
@@ -23,8 +24,9 @@ export const FAQGeneral = () => {
                                 </li>
 
                                 <li data-aos="fade-up" data-aos-delay="200">
-                                    <a data-bs-toggle="collapse" href="#faq-list-2" className="collapsed ft-18 dm-sans-medium line-120">
-                                        How do you choose the cars that you sell?                                        <i className="bx bx-plus icon-show"></i>
+                                    <a data-bs-toggle="collapse" href="#faq-list-2" className="collapsed ft-18 dm-sans-medium line-120 px-0">
+                                        How do you choose the cars that you sell?
+                                        <i className="bx bx-plus icon-show"></i>
                                         <i className="bx bx-minus icon-close"></i>
                                     </a>
                                     <div id="faq-list-2" className="collapse" data-bs-parent=".faq-list">
