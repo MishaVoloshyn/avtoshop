@@ -3,7 +3,8 @@ import {HeaderDark} from "../Components/Header-dark-1";
 import {Footer} from "../Components/Footer";
 import React from 'react';
 import {SingleImg3} from "../Components/Single-img-3";
-import {Benefits2} from "../Components/Benefits-2";
+// import {Benefits2} from "../Components/Benefits-2";
+import {Benefits1} from "../Components/benefits-1";
 
 
 export const Service = () => (
@@ -21,7 +22,8 @@ export const Service = () => (
                 <SingleImg3/>
             </div>
         </section>
-        <Benefits2/>
+        {/*<Benefits2/>*/}
+        <Benefits1/>
         <Footer/>
         <Outlet/>
     </>
