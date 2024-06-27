@@ -11,12 +11,14 @@ import {Rating} from "../Components/Customer-rating";
 import {BlogList1} from "../Components/Blog-1";
 import {SingleImg2} from "../Components/Single-img-2";
 import React from "react";
+import CarouselVideoExample from "../Components/video-slider";
 
 export const MainPage = () => (
     <>
         {/*<HeaderLight/>*/}
 
         <HeaderLight/>
+        <CarouselVideoExample/>
         <Brands/>
         <CarsList/>
         <SingleImg1/>

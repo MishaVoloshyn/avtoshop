@@ -24,14 +24,17 @@ import vinIcon from '../assets/image/car-info/vin-icon.svg';
 import phoneIcon from '../assets/image/car-info/phone-icon.svg';
 import offerIcon from '../assets/image/car-info/offer-icon.svg';
 import getDirectionIcon from '../assets/image/car-info/get-direction-icon.svg';
+import adminPhoto from '../assets/image/car-info/admin-photo.png';
 
 import slider1Img from '../assets/image/car-info/slider-img/1.png';
 import {Map} from "./map";
+import {FinancingCalc} from "./Financing-calc";
+import ReviewComponent from "./Review-from-card";
 
 export function CarInfo() {
     return(
         <section className="mt-5">
-            <div className="container py-5">
+            <div className="container py-0 py-md-5">
                 <nav aria-label="breadcrumb">
                     <ol className="breadcrumb">
                         <li className="breadcrumb-item"><a href="#">Home</a></li>
@@ -43,23 +46,43 @@ export function CarInfo() {
                 <p className="ft-15">2.0 D5 PowerPulse Momentum 5dr AWD Geartronic Estate</p>
 
                 <div className="row">
-                    <div className="col-6">
-                        <span className="blue-color border-40 bg-light-blue py-2 px-3 me-2"><img src={calendarIcon} alt=""/> 2021</span>
-                        <span className="blue-color border-40 bg-light-blue py-2 px-3 me-2"><img src={mileageIcon} alt=""/> 250 miles</span>
-                        <span className="blue-color border-40 bg-light-blue py-2 px-3 me-2"><img src={typeIcon} alt=""/> Manual</span>
-                        <span className="blue-color border-40 bg-light-blue py-2 px-3 me-2"><img src={petrolIcon} alt=""/> Petrol</span>
+                    <div className="col-12 col-md-8 col-lg-5">
+                        <div className="row gy-2 gx-1">
+                            <div className="col-6 col-md-3">
+                                <div className="blue-color border-40 bg-light-blue py-2 px-2 text-center ft-15"><img src={calendarIcon} alt=""/> 2021</div>
+                            </div>
+                            <div className="col-6 col-md-3">
+                                <div className="blue-color border-40 bg-light-blue py-2 px-2 text-center ft-15"><img src={mileageIcon} alt=""/> 250 miles</div>
+                            </div>
+                            <div className="col-6 col-md-3">
+                                <div className="blue-color border-40 bg-light-blue py-2 px-2 text-center ft-15"><img src={typeIcon} alt=""/> Manual</div>
+                            </div>
+                            <div className="col-6 col-md-3">
+                                <div className="blue-color border-40 bg-light-blue py-2 px-2 text-center ft-15"><img src={petrolIcon} alt=""/> Petrol</div>
+                            </div>
+                        </div>
+
                     </div>
-                    <div className="col-6 text-end">
-                        <span className="me-3">Share <button className="btn border-btn rounded-5"><img src={shareIcon} className="align-self-auto" alt=""/></button></span>
-                        <span className="me-3">Save <button className="btn border-btn rounded-5"><img src={saveIcon} className="align-self-auto" alt=""/></button></span>
-                        <span className="me-3">Compare <button className="btn border-btn rounded-5"><img src={compareIcon} className="align-self-auto" alt=""/></button></span>
+                    <div className="col-12 col-md-4 col-lg-7">
+                        <div className="row gy-2 gx-1 d-flex justify-content-end mt-2 mt-md-0">
+                            <div className="col-12 col-md-2 col-lg-3">
+                                <div className="text-start text-md-end ft-15">Share <button className="btn border-btn rounded-5"><img src={shareIcon} className="align-self-auto" alt=""/></button></div>
+                            </div>
+                            <div className="col-12 col-md-3 col-lg-3">
+                                <div className="text-start text-md-end ft-15">Save <button className="btn border-btn rounded-5"><img src={saveIcon} className="align-self-auto" alt=""/></button></div>
+                            </div>
+                            <div className="col-12 col-md-2 col-lg-3">
+                                <div className="text-start text-md-end ft-15">Compare <button className="btn border-btn rounded-5"><img src={compareIcon} className="align-self-auto" alt=""/></button></div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
 
                 <div className="row pt-3">
                     <div className="col-12 col-lg-8">
                         <div>
-                            <img src="" alt=""/>
+                            <img src={slider1Img} className="img-fluid border-16" alt=""/>
                         </div>
 
                          <div className="row">
@@ -117,7 +140,7 @@ export function CarInfo() {
                                 mattis blandit nisl, et tristique elit scelerisque nec. Fusce eleifend laoreet dui eget aliquet. Ut rutrum risus et nunc pretium scelerisque.
                             </div>
                             <div>
-                                <div className="d-grid gap-2 col-4  pt-3">
+                                <div className="d-grid gap-2 col-12 col-md-4 pt-3">
                                     <button className="btn btn-outline-dark h55" type="button"><img src={calendarIcon} alt=""/>  Car-Brochure.pdf</button>
                                 </div>
                             </div>
@@ -247,16 +270,11 @@ export function CarInfo() {
                             <div className="col-12 pb-2">
                                 990 Metropolitan Ave, Brooklyn
                             </div>
-
                           <Map/>
-
-
                         </div>
                         <hr/>
-
-
-
-
+                        <FinancingCalc/>
+                        <ReviewComponent/>
                         <div className="row pt-4 pb-4">
 
                             <div className="col-12 fw-bold ft-26 pb-2">
@@ -338,9 +356,6 @@ export function CarInfo() {
 
                         </div>
 
-
-
-
                     </div>
                     <div className="col-12 col-lg-4 ">
                         <div className="pt-lg-0 pt-5">
@@ -351,7 +366,7 @@ export function CarInfo() {
                                     </div>
 
                                     <div className="col-12 pb-2">
-                                        <span className="ft-16 line-through">$180,000</span>  <span className="h3">$165,000</span>
+                                        <span className="ft-16 line-through">$180,000</span>  <span className="h3 dm-sans-bold">$165,000</span>
                                     </div>
 
                                     <div className="col-12 pb-2">
@@ -374,23 +389,20 @@ export function CarInfo() {
                                 <div className="row m-3 pt-2 pb-2">
 
                                     <div className="col-12">
-                                        <img src="" alt=""/>
+                                        <img src={adminPhoto} alt=""/>
+                                        <p className="m-0 ft-20 dm-sans-medium">admin</p>
                                     </div>
 
                                     <div className="col-12">
-                                        <p className="m-0 pb-2 ft-20 fw-bold">admin</p>
-                                    </div>
-
-                                    <div className="col-12 pb-1">
-                                        <p>943 Broadway, Brooklyn</p>
+                                        <p className="">943 Broadway, Brooklyn</p>
                                     </div>
 
                                     <div className="row">
                                         <div className="col-6">
-                                            <p><img src={getDirectionIcon} alt=""/>  Get Direction</p>
+                                            <p className="ft-15"><img src={getDirectionIcon} alt=""/> Get Direction</p>
                                         </div>
                                         <div className="col-6">
-                                            <p><img src={phoneIcon} alt=""/>  +88123456789</p>
+                                            <p className="ft-15"><img src={phoneIcon} alt=""/> +88123456789</p>
                                         </div>
                                     </div>
 
@@ -401,13 +413,12 @@ export function CarInfo() {
                                         <button className="btn btn-outline-success h55" type="button"> Chat Via Whatsapp  <i className="bi bi-arrow-up-right"></i></button>
                                     </div>
                                     <div className="text-center">
-                                        View All stock at this dealer <i className="bi bi-arrow-up-right"></i>
+                                        <a href="">View All stock at this dealer <i className="bi bi-arrow-up-right"></i></a>
                                     </div>
 
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>

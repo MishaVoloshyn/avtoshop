@@ -830,6 +830,12 @@ input::placeholder {
     line-height: 120%;
 }
 
+.carousel-dark .carousel-control-next-icon, .carousel-dark .carousel-control-prev-icon {
+     /*filter: invert(0) grayscale(0);*/
+    background-color: #000000;
+    border-radius: 50%;
+    border: 10px solid #000000;
+}
 
 
 
