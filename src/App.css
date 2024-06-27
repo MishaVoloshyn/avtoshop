@@ -956,4 +956,5 @@ input::placeholder {
     height: 210px;
 }
 
-
+.text-single{color: white}
+.text-single:hover{color: black}

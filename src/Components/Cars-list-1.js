@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import carsData from '../data/carsData.json';
 import { CarCardPattern } from './CarCardPattern';
-
+import { Link } from 'react-router-dom';
 export function CarsList({ limit }) {
     const [cars, setCars] = useState([]);
 
@@ -17,7 +17,7 @@ export function CarsList({ limit }) {
                         <h2 className="primary-color dm-sans-bold text-h2">Explore All Vehicles</h2>
                     </div>
                     <div className="col-sm-4 col-12 pt-sm-0 pt-3 pb-sm-0 pb-4 text-sm-end text-center">
-                        <a href=""><p className="ft-18 primary-color dm-sans-medium mb-0 view-all">View All <i className="bi bi-arrow-up-right"></i></p></a>
+                        <a href=""><Link to="/cars-list"><p className="ft-18 primary-color dm-sans-medium mb-0 view-all">View All <i className="bi bi-arrow-up-right"></i></p></Link></a>
                     </div>
                 </div>
                 <div className="row">

@@ -1,6 +1,6 @@
 import React from "react";
 import carImg from "../assets/image/single-img-1/car.png";
-
+import { Link } from 'react-router-dom';
 
 export function SingleImg1(){
     return (
@@ -16,10 +16,10 @@ export function SingleImg1(){
                                 Drive, or visit us at one of our dealerships today.</p>
 
                             <div className="row">
-                                <div className="col-10 col-lg-7 d-grid mx-auto mx-lg-0">
-                                        <a className="btn btn-lg btn-single">
-                                            Get started <i className="bi bi-arrow-up-right"></i>
-                                        </a>
+                                <div className="col-12 col-lg-7 text-center text-lg-start d-grid mx-auto mx-lg-0">
+                                    <Link to="/price-cards" className="text-single"><a className="btn btn-lg btn-single ft-15 px-4 py-3">
+                                           Get started <i className="bi bi-arrow-up-right"></i>
+                                        </a></Link>
                                 </div>
                             </div>
                         </div>

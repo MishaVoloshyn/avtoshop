@@ -3,10 +3,7 @@ import mileageIcon from '../assets/image/car-list-icons/mileage-icon.svg';
 import petrolIcon from '../assets/image/car-list-icons/petrol-icon.svg';
 import typeIcon from '../../src/assets/image/car-list-icons/type-icon.svg';
 
-
 export function CarCardPattern({ car }) {
-
-
     return (
         <div className="col-12 col-md-6 col-lg-4 col-xl-3">
             <div className="card">
@@ -16,7 +13,7 @@ export function CarCardPattern({ car }) {
                 </div>
                 <div className="card-body">
                     <a href=""><h5 className="card-title ft-18 mb-1 dm-sans-medium primary-color">{car.title}</h5>
-                    <p className="ft-14 border-bottom dm-sans-regular primary-color">{car.description}</p></a>
+                        <p className="ft-14 border-bottom dm-sans-regular primary-color">{car.description}</p></a>
                     <div className="row justify-content-center">
                         <div className="col-4 text-center">
                             <img src={mileageIcon} alt="Mileage Icon" className="fs-2" />

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import blogData from '../data/blogData.json';
 import { BlogCard } from './BlogCard';
+import { Link } from 'react-router-dom';
 
 export function BlogList1({ limit }) {
     const [blog, setBlog] = useState([]);
@@ -18,7 +19,7 @@ export function BlogList1({ limit }) {
                         <h2 className="primary-color dm-sans-bold text-h2">Latest Blog Posts</h2>
                     </div>
                     <div className="col-sm-4 col-12 pt-sm-0 pt-3 pb-sm-0 pb-4 text-sm-end text-center">
-                        <a href=""><p className="ft-18 primary-color dm-sans-medium mb-0 view-all">View All <i className="bi bi-arrow-up-right"></i></p></a>
+                        <a href=""><Link to="/blog"><p className="ft-18 primary-color dm-sans-medium mb-0 view-all">View All <i className="bi bi-arrow-up-right"></i></p></Link></a>
                     </div>
                 </div>
                 <div className="row">
