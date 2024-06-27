@@ -836,6 +836,8 @@ input::placeholder {
     border-radius: 50%;
     border: 10px solid #000000;
 }
-
+.statistics-3-height {
+    height: 210px;
+}
 
 

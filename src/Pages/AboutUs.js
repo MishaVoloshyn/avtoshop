@@ -8,6 +8,7 @@ import {Brands} from "../Components/Brands";
 import {Team} from "../Components/Team";
 import {AboutUsInfo} from "../Components/About-us-info";
 import React from "react";
+import {Counter} from "../Components/Counter";
 
 export const AboutUs = () => (
     <>
@@ -26,6 +27,7 @@ export const AboutUs = () => (
         <AboutUsInfo/>
         <Benefits1/>
         <SliderVideo/>
+        <Counter/>
         <Brands/>
         <Team/>
         <FAQSection/>
