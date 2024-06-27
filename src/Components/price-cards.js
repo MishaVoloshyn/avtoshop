@@ -35,7 +35,7 @@ export function Price_Cards(){
                             <p className="dm-sans-medium ft-20 mb-2">Standard Plan</p>
                             <p className="dm-sans-regular ft-14">Quis autem vel eum iure reprehenderit
                                 qui in ea voluptate velit.</p>
-                            <ul className="custom-list">
+                            <ul className="custom-list-2">
                                 <li className="dm-sans-regular ft-15">60 Listings</li>
                                 <li className="dm-sans-regular ft-15">150 Days Visibility</li>
                                 <li className="dm-sans-regular ft-15">Highlighted in Search Results</li>

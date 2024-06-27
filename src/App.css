@@ -271,9 +271,32 @@ a{
     transform: translateY(-50%);
     width: 20px;
     height: 20px;
-    background-image: url('assets/image/price-cards/Overlay.png');
+    background-image: url('assets/image/price-cards/overlay-1.svg');
     background-size: cover;
 }
+
+.custom-list-2 {
+    list-style: none;
+    padding-left: 0;
+}
+
+.custom-list-2 li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+.custom-list-2 li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background-image: url('assets/image/price-cards/overlay-2.svg');
+    background-size: cover;
+}
+
 
 .price-cards-border-color{
     border: 1px solid #E9E9E9;
