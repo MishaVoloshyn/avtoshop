@@ -5,7 +5,7 @@ import link2 from "../assets/image/application/Link2.png";
 
 export function Application() {
     return (
-        <div className="px-5 mx-5">
+        <div className="px-5 mx-5 d-xl-block d-none">
             <section className="mb-3 pb-5" style={{
                 backgroundImage: `url(${backgroundImg})`,
                 width: '100%',
@@ -33,13 +33,13 @@ export function Application() {
                                     </div>
                                 </div>
 
-                                <div className="col-12 col-sm-4 col-lg-2">
+                                <div className="col-12 col-sm-4 col-lg-3">
                                     <a href="/" tabIndex="0">
                                         <img className="bn45" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/2560px-Google_Play_Store_badge_EN.svg.png" alt="bn45"/>
                                     </a>
                                 </div>
 
-                                <div className="col-12 col-sm-4 col-lg-2">
+                                <div className="col-12 col-sm-4 col-lg-3">
                                     <a href="/" tabIndex="0">
                                         <img className="bn46" src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="bn45"/>
                                     </a>

@@ -378,9 +378,19 @@ a{
 .slick-next:before {
     color: var(--blue-color);
 }
+.slick-prev:before,
+.slick-next:before {
+    color: var(--blue-color);
+}
 
-.
-rating{ box-shadow: 2px -1px 22px -6px rgba(0,0,0,0.23);}
+@media (max-width: 768px) {
+    .slick-prev,
+    .slick-next {
+        display: none !important;
+    }
+}
+
+. rating{ box-shadow: 2px -1px 22px -6px rgba(0,0,0,0.23);}
 
 .bi-star-fill, .bi-star {color: var(--green-1-color)}
 .btn-outline-white{color: var(--background-color); border-color: var(--background-color)}

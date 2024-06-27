@@ -43,9 +43,9 @@ export function Rating() {
     };
     return (
         <div className="section bg-white-2">
-            <div className="container py-5">
+            <div className="container py-2 py-lg-5">
 
-                    <div className="row gx-3 py-5">
+                    <div className="row gx-3 py-2 py-lg-5">
                         <div className="col-12">
                             <div className="row d-flex">
                                 <div className="col-6 align-content-center">
@@ -60,7 +60,7 @@ export function Rating() {
                             <Slider {...settings}>
 
                                 {/* 1 rating*/}
-                                <div className="col-3 px-3 py-5">
+                                <div className="col-3 px-2 py-2">
                                     <div className="rating bg-white py-3 px-3 border-16">
                                         <div className="row">
                                             <div className="col-6">
@@ -86,7 +86,7 @@ export function Rating() {
                                 </div>
 
                                 {/* 2 rating*/}
-                                <div className="col-3 px-3 py-5">
+                                <div className="col-3 px-2 py-2">
                                     <div className="rating bg-white py-3 px-3 border-16">
                                         <div className="row">
                                             <div className="col-6">
@@ -112,7 +112,7 @@ export function Rating() {
                                 </div>
 
                                 {/* 3 rating*/}
-                                <div className="col-3 px-3 py-5">
+                                <div className="col-3 px-2 py-2">
                                     <div className="rating bg-white py-3 px-3 border-16">
                                         <div className="row">
                                             <div className="col-6">
@@ -138,7 +138,7 @@ export function Rating() {
                                 </div>
 
                                 {/* 4 rating*/}
-                                <div className="col-3 px-3 py-5">
+                                <div className="col-3 px-2 py-2">
                                     <div className="rating bg-white py-3 px-3 border-16">
                                         <div className="row">
                                             <div className="col-6">
@@ -164,7 +164,7 @@ export function Rating() {
                                 </div>
 
                                 {/* 5 rating*/}
-                                <div className="col-3 px-3 py-5">
+                                <div className="col-3 px-2 py-2">
                                     <div className="rating bg-white py-3 px-3 border-16">
                                         <div className="row">
                                             <div className="col-6">
@@ -191,7 +191,7 @@ export function Rating() {
                                 </div>
 
                                 {/* 6 rating*/}
-                                <div className="col-3 px-3 py-5">
+                                <div className="col-3 px-2 py-2">
                                     <div className="rating bg-white py-3 px-3 border-16">
                                         <div className="row">
                                             <div className="col-6">

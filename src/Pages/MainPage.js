@@ -21,6 +21,7 @@ export const MainPage = () => (
         <CarsList/>
         <SingleImg1/>
         <Benefits1/>
+
         <Rating/>
         <Team/>
         <Application/>
