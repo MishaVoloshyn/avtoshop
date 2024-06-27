@@ -1,8 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import logoImg from '../assets/image/navbar/logo.svg';
 import { Link } from 'react-router-dom';
+import { Modal } from 'react-bootstrap';
 
 export function HeaderDark() {
+    const [showModal, setShowModal] = useState(false);
+
+    const handleClose = () => setShowModal(false);
+    const handleShow = () => setShowModal(true);
+
     return (
         <section className="py-3 bg-black">
             <div className="px-3">
@@ -12,8 +18,8 @@ export function HeaderDark() {
                             <img src={logoImg} alt="Logo"/>
                         </Link>
                     </div>
-                    <div className="col-1 col-lg-7  align-content-center d-flex justify-content-end order-lg-2 order-3">
-                        <div className="d-flex align-items-center ">
+                    <div className="col-9 col-md-7 col-lg-7 align-content-center d-flex justify-content-end order-lg-2 order-3">
+                        <div className="d-flex align-items-center">
                             <nav id="navbar" className="navbar d-flex">
                                 <ul>
                                     {/* home */}
@@ -88,12 +94,52 @@ export function HeaderDark() {
                                         </Link>
                                     </li>
                                 </ul>
-                                <i className="bi bi-list mobile-nav-toggle"></i>
+                                <i className="bi bi-list mobile-nav-toggle" onClick={handleShow}></i>
                             </nav>
                         </div>
                     </div>
                 </div>
             </div>
+
+            {/* Modal for Mobile Navigation */}
+            <Modal show={showModal} onHide={handleClose} dialogClassName="modal-mobile-nav">
+                <Modal.Header closeButton>
+                    <Modal.Title>All Pages</Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                    <ul className="mobile-nav-list ps-0">
+                        <li><Link to="/index">Home</Link></li>
+                        <li className="dropdown">
+                            <Link to="/cars-list">Listing</Link>
+                            <ul className="dropdown-menu">
+                                <li><Link to="/price-cards">Price Cards</Link></li>
+                                <li><Link to="/">Another action</Link></li>
+                                <li><Link to="/">Something else here</Link></li>
+                            </ul>
+                        </li>
+                        <li className="dropdown">
+                            <Link to="/blog">Blog</Link>
+                            <ul className="dropdown-menu">
+                                <li><Link to="/">Action</Link></li>
+                                <li><Link to="/">Another action</Link></li>
+                                <li><Link to="/">Something else here</Link></li>
+                            </ul>
+                        </li>
+                        <li className="dropdown">
+                            <Link to="/LoanCalc">Pages</Link>
+                            <ul className="dropdown-menu">
+                                <li><Link to="/loan-calc">Calculator</Link></li>
+                                <li><Link to="/shop">Shop</Link></li>
+                                <li><Link to="/">Something else here</Link></li>
+                            </ul>
+                        </li>
+                        <li><Link to="/about-us">About</Link></li>
+                        <li><Link to="/contacts">Contact</Link></li>
+                        <li><Link to="/login-form"><i className="bi bi-person"></i> Sign in</Link></li>
+                        <li><Link to="/" className="btn btn-lg btn-outline-primary">Submit Listing</Link></li>
+                    </ul>
+                </Modal.Body>
+            </Modal>
         </section>
     );
 }
