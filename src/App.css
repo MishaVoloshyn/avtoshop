@@ -117,7 +117,7 @@ body {
         font-size: 28px;
     }
     .text-h2 {
-        font-size: 27px;
+        font-size: 28px;
     }
 }
 @media screen and (max-width: 576px) {
@@ -131,7 +131,7 @@ body {
         height: 25px;
     }
     .text-h2 {
-        font-size: 24px;
+        font-size: 26px;
     }
 }
 
@@ -379,7 +379,8 @@ a{
     color: var(--blue-color);
 }
 
-.rating{ box-shadow: 2px -1px 22px -6px rgba(0,0,0,0.23);}
+.
+rating{ box-shadow: 2px -1px 22px -6px rgba(0,0,0,0.23);}
 
 .bi-star-fill, .bi-star {color: var(--green-1-color)}
 .btn-outline-white{color: var(--background-color); border-color: var(--background-color)}

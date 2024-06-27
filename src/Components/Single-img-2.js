@@ -13,7 +13,7 @@ export function SingleImg2(){
             <div className="container mt-5 py-5">
                 <div className="row py-5">
                     <div className="col-12 col-sm-12 col-lg-6 mt-5 pt-5">
-                        <h1 className="text-capitalize text-white">
+                        <h1 className="text-capitalize text-white text-video-slider1">
                             We make finding the
                             right car simple
                         </h1>

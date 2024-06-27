@@ -9,29 +9,29 @@ export function Benefits1(){
         <div className="container my-5">
             <div className="row">
                 {/*<div className="col-12"></div>*/}
-                <p className="dm-sans-bold ft-40 text-start mb-4">Why Choose Us?</p>
-                <div className="col-lg-3 col-sm-6 col-md-6">
+                <p className="dm-sans-bold ft-40 text-md-start text-center mb-4">Why Choose Us?</p>
+                <div className="col-lg-3 col-12 col-md-6  text-md-start text-center">
                     <img src={img1} alt=""/>
                     <p className="dm-sans-medium ft-20">Special Financing Offers</p>
                     <p className="dm-sans-regular ft-15">Our stress-free finance department that can
                         find financial solutions to save you money.</p>
                 </div>
 
-                <div className="col-lg-3 col-sm-6 col-md-6">
+                <div className="col-lg-3 col-12 col-md-6  text-md-start text-center">
                     <img src={img2} alt=""/>
                     <p className="dm-sans-medium ft-20">Trusted Car Dealership</p>
                     <p className="dm-sans-regular ft-15">Our stress-free finance department that can
                         find financial solutions to save you money.</p>
                 </div>
 
-                <div className="col-lg-3 col-sm-6 col-md-6">
+                <div className="col-lg-3 col-12 col-md-6  text-md-start text-center">
                     <img src={img3} alt=""/>
                     <p className="dm-sans-medium ft-20">Transparent Pricing</p>
                     <p className="dm-sans-regular ft-15">Our stress-free finance department that can
                         find financial solutions to save you money.</p>
                 </div>
 
-                <div className="col-lg-3 col-sm-6 col-md-6">
+                <div className="col-lg-3 col-12 col-md-6  text-md-start text-center">
                     <img src={img4} alt=""/>
                     <p className="dm-sans-medium ft-20">Expert Car Service</p>
                     <p className="dm-sans-regular ft-15">Our stress-free finance department that can

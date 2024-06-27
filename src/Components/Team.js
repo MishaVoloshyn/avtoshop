@@ -8,10 +8,11 @@ export function Team() {
     return (
         <div className="container my-5">
             <div className="row">
-                <div className="col-6">
-                    <h2 className="dm-sans-bold text-start">Our Team</h2>
+
+                <div className="col-sm-8 col-12 text-sm-start text-center">
+                    <h2 className="primary-color dm-sans-bold text-h2">Our Team</h2>
                 </div>
-                <div className="col-6 text-end">
+                <div className="col-sm-4 col-12 pt-sm-0 pt-3 pb-sm-0 pb-4 text-sm-end text-center">
                     <a href=""><p className="ft-18 primary-color dm-sans-medium mb-0 view-all">View All <i className="bi bi-arrow-up-right"></i></p></a>
                 </div>
             </div>
