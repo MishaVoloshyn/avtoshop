@@ -11,7 +11,7 @@ export const AboutUs = () => (
     <>
         <HeaderDark/>
         <Benefits1/>
-
+        <SliderVideo/>
         <Brands/>
         <Team/>
         <FAQSection/>
