@@ -9,6 +9,7 @@ import {Team} from "../Components/Team";
 import {AboutUsInfo} from "../Components/About-us-info";
 import React from "react";
 import {Counter} from "../Components/Counter";
+import {Reviews1} from "../Components/Reviews";
 
 export const AboutUs = () => (
     <>
@@ -30,6 +31,7 @@ export const AboutUs = () => (
         <Counter/>
         <Brands/>
         <Team/>
+        <Reviews1/>
         <FAQSection/>
         <Outlet/>
         <Footer/>
