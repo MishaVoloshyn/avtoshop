@@ -573,7 +573,12 @@ input::placeholder {
     background-color: #E9F2FF;
     border-radius: 15px;
 }
-
+.comment-color-text{
+    color: #02CCAD;
+}
+.button-color{
+    background-color: #405FF2;
+}
 
 /*--------------------------------------------------------------
 # Navigation Menu

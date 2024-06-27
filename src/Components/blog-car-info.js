@@ -107,6 +107,7 @@ export function BlogCarInfo() {
                         </div>
                     </div>
                 </div>
+
                 <div className="col-md-6 d-flex align-items-center">
                     <div className="col-6">
                         <p className="dm-sans-medium ft-13 little-blocks p-2">Exterior</p>
