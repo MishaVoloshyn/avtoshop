@@ -33,13 +33,13 @@ export function Application() {
                                     </div>
                                 </div>
 
-                                <div className="col-12 col-sm-4 col-lg-2" data-aos="fade-up" data-aos-delay="400">
+                                <div className="col-12 col-sm-4 col-lg-2 me-lg-4 me-xl-0" data-aos="fade-up" data-aos-delay="400">
                                     <a href="/" tabIndex="0">
                                         <img className="bn45" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/2560px-Google_Play_Store_badge_EN.svg.png" alt="bn45"/>
                                     </a>
                                 </div>
 
-                                <div className="col-12 col-sm-4 col-lg-2" data-aos="fade-up" data-aos-delay="500">
+                                <div className="col-12 col-sm-4 col-lg-2 " data-aos="fade-up" data-aos-delay="500">
                                     <a href="/" tabIndex="0">
                                         <img className="bn46" src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="bn45"/>
                                     </a>
