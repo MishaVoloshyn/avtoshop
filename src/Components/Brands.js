@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom';
 export function Brands() {
     return (
         <div className="container my-5">
-            <div className="row pb-3">
+            <div className="row pb-3" data-aos="fade-up" data-aos-delay="200">
                 <div className="col-sm-8 col-12 text-sm-start text-center">
                     <h2 className="primary-color dm-sans-bold text-h2">Explore Our Premium Brands</h2>
                 </div>
@@ -20,7 +20,7 @@ export function Brands() {
             </div>
             <div className="row gy-3">
 
-                <div className="col-6 col-sm-4 col-lg-2 ">
+                <div className="col-6 col-sm-4 col-lg-2 " data-aos="fade-up" data-aos-delay="200">
                     <div className=" border-16 brands-border-color">
                         <div className="row">
                             <div className="col-12 d-flex justify-content-center pt-3">
@@ -34,7 +34,7 @@ export function Brands() {
                 </div>
 
 
-                <div className="col-6 col-sm-4 col-lg-2 ">
+                <div className="col-6 col-sm-4 col-lg-2 " data-aos="fade-up" data-aos-delay="300">
                     <div className=" border-16 brands-border-color">
                         <div className="row">
                             <div className="col-12 d-flex justify-content-center pt-3">
@@ -46,7 +46,8 @@ export function Brands() {
                         </div>
                     </div>
                 </div>
-                <div className="col-6 col-sm-4 col-lg-2 ">
+
+                <div className="col-6 col-sm-4 col-lg-2 " data-aos="fade-up" data-aos-delay="400">
                     <div className=" border-16 brands-border-color">
                         <div className="row">
                             <div className="col-12 d-flex justify-content-center pt-3">
@@ -59,7 +60,7 @@ export function Brands() {
                     </div>
                 </div>
 
-                <div className="col-6 col-sm-4 col-lg-2 ">
+                <div className="col-6 col-sm-4 col-lg-2 " data-aos="fade-up" data-aos-delay="500">
                     <div className=" border-16 brands-border-color">
                         <div className="row">
                             <div className="col-12 d-flex justify-content-center pt-3">
@@ -73,7 +74,7 @@ export function Brands() {
                 </div>
 
 
-                <div className="col-6 col-sm-4 col-lg-2 ">
+                <div className="col-6 col-sm-4 col-lg-2 " data-aos="fade-up" data-aos-delay="600">
                     <div className=" border-16 brands-border-color">
                         <div className="row">
                             <div className="col-12 d-flex justify-content-center pt-3">
@@ -86,7 +87,7 @@ export function Brands() {
                     </div>
                 </div>
 
-                <div className="col-6 col-sm-4 col-lg-2 ">
+                <div className="col-6 col-sm-4 col-lg-2 " data-aos="fade-up" data-aos-delay="700">
                     <div className=" border-16 brands-border-color">
                         <div className="row">
                             <div className="col-12 d-flex justify-content-center pt-3">

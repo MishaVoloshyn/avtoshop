@@ -13,9 +13,9 @@ export function BlogList1({ limit }) {
     return (
         <div className="section py-3">
             <div className="container my-5">
-                <div className="row pt-3">
+                <div className="row pt-3" data-aos="fade-up" data-aos-delay="200">
 
-                    <div className="col-sm-8 col-12 text-sm-start text-center">
+                    <div className="col-sm-8 col-12 text-sm-start text-center" >
                         <h2 className="primary-color dm-sans-bold text-h2">Latest Blog Posts</h2>
                     </div>
                     <div className="col-sm-4 col-12 pt-sm-0 pt-3 pb-sm-0 pb-4 text-sm-end text-center">
@@ -25,7 +25,7 @@ export function BlogList1({ limit }) {
                 <div className="row">
 
                     <div className="col-12 mt-5">
-                        <div className="row gx-3 gy-3">
+                        <div className="row gx-3 gy-3" data-aos="fade-up" data-aos-delay="300">
                             {blog.map(blog => (
                                 <BlogCard key={blog.id} blog={blog} />
                             ))}

@@ -1,4 +1,7 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
@@ -23,6 +26,12 @@ import { Contacts } from "./Pages/Contacts";
 import { LoginForm } from "./Pages/LoginForm";
 
 function App() {
+    useEffect(() => {
+        AOS.init({
+            duration: 1000, // Настройка продолжительности анимации (по умолчанию 400ms)
+        });
+    }, []);
+
     return (
         <BrowserRouter>
             <Routes>

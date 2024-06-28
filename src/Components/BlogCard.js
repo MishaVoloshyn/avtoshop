@@ -5,7 +5,7 @@ export function BlogCard({ blog }) {
         <div className="col-12 col-md-6 col-lg-4">
             <div className="border-16 card border-0">
                 <div className="position-relative">
-                    <img src={blog.image} className="card-img-top" alt="Car" />
+                    <img src={blog.image} className="card-img-top border-16" alt="Car" />
                     <span className={`badge text-black position-absolute py-2 px-3 dm-sans-medium ft-15 border-30`} style={{ top: '15px', left: '10px', backgroundColor: blog["bg-color"] }}>{blog.badge}</span>
                 </div>
                 <div className="card-body bg-0 px-0">

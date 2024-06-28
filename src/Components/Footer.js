@@ -1,4 +1,7 @@
 import React from "react";
+import appleLink from "../assets/image/footer/apple-link.svg";
+import googleLink from "../assets/image/footer/google-link.svg";
+
 export function Footer() {
     return (
         <div className="bg-primary1 p-3 p-md-0">
@@ -66,8 +69,8 @@ export function Footer() {
                     </div>
                     <div className="col-lg-3 col-sm-4 col-6 white-2-color">
                         <h4 className=" pb-2">Our Mobile App</h4>
-                        <p className="ft-15  dm-sans-regular">APPLE</p>
-                        <p className="ft-15  dm-sans-regular">GOOGLE</p>
+                        <a href="#"><p className="ft-15  dm-sans-regular"><img src={appleLink} className="img-fluid" alt=""/></p></a>
+                        <a href="#"><p className="ft-15  dm-sans-regular"><img src={googleLink} className="img-fluid" alt=""/></p></a>
                         <h4 className=" pb-2">Connect With Us</h4>
                         <div className="row white-2-color">
                             <div className="col-3">

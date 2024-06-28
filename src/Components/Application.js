@@ -17,7 +17,7 @@ export function Application() {
                     <div className="row">
                         <div className="col-12">
                             <div className="row py-5">
-                                <div className="col-6">
+                                <div className="col-6" data-aos="fade-up" data-aos-delay="200">
                                     <p className="dm-sans-bold ft-40 overlay-text text-capitalize">
                                         Shop used cars, whether
                                         you're
@@ -25,7 +25,7 @@ export function Application() {
                                     </p>
                                 </div>
                                 <div className="col-12 mb-2">
-                                    <div className="col-6">
+                                    <div className="col-6" data-aos="fade-up" data-aos-delay="300">
                                         <p>
                                             Download our app to save cars and create alerts, scan window stickers on our lot for more details,
                                             and even call dibs on a car by holding it for up to 7 days.
@@ -33,13 +33,13 @@ export function Application() {
                                     </div>
                                 </div>
 
-                                <div className="col-12 col-sm-4 col-lg-2">
+                                <div className="col-12 col-sm-4 col-lg-2" data-aos="fade-up" data-aos-delay="400">
                                     <a href="/" tabIndex="0">
                                         <img className="bn45" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/2560px-Google_Play_Store_badge_EN.svg.png" alt="bn45"/>
                                     </a>
                                 </div>
 
-                                <div className="col-12 col-sm-4 col-lg-2">
+                                <div className="col-12 col-sm-4 col-lg-2" data-aos="fade-up" data-aos-delay="500">
                                     <a href="/" tabIndex="0">
                                         <img className="bn46" src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="bn45"/>
                                     </a>

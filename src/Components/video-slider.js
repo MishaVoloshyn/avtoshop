@@ -18,7 +18,7 @@ const CarouselExampleDark = () => {
                     <img src={slider1} className="d-block w-100" alt="First slide"/>
                     <div className="carousel-caption  d-flex align-items-center text-start text-white top-0 mb-0">
                         <div className="">
-                            <div className="inner-block ">
+                            <div className="inner-block " data-aos="fade-up" data-aos-delay="200">
                                 <h2 className="text-video-slider2">$35,000</h2>
                                 <h1 className="text-video-slider1">Mercedes-Benz, C Class</h1>
                                 <div className="text-white d-none d-sm-block">
