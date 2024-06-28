@@ -8,7 +8,7 @@ export function AboutUsInfo() {
             <div className="container">
                 {/* --------------- text section  -------------*/}
                 <div className="row">
-                    <div className="col-12 col-md-5 text-start">
+                    <div className="col-12 col-md-5 text-start" data-aos="fade-up" data-aos-delay="200">
                         <h2 className="dm-sans-bold">
                             We Value Our Clients And
                             Want Them To Have A Nice
@@ -16,7 +16,7 @@ export function AboutUsInfo() {
                         </h2>
                     </div>
                     <div className="col-12 offset-lg-1 col-md-6 ft-15 dm-sans-regular">
-                        <div className="row justify-content-end d-flex">
+                        <div className="row justify-content-end d-flex" data-aos="fade-up" data-aos-delay="300">
                             <div className="col-12">
                                 <p className="">
                                     Lorem ipsum dolor sit amet consectetur. Convallis integer enim eget sit urna. Eu duis lectus amet
@@ -40,7 +40,7 @@ export function AboutUsInfo() {
                 {/* --------------- end text section  -------------*/}
 
                 {/* --------------- image section  -------------*/}
-                <div className="row gx-3 gy-3 mt-2 mt-md-5">
+                <div className="row gx-3 gy-3 mt-2 mt-md-5" data-aos="fade-up" data-aos-delay="400">
                     <div className="col-12 col-lg-7">
                         <img src={img1} className="img-fluid" alt=""/>
                     </div>

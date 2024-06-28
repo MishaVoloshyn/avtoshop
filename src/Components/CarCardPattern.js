@@ -2,10 +2,12 @@ import React from 'react';
 import mileageIcon from '../assets/image/car-list-icons/mileage-icon.svg';
 import petrolIcon from '../assets/image/car-list-icons/petrol-icon.svg';
 import typeIcon from '../../src/assets/image/car-list-icons/type-icon.svg';
+import { Link } from 'react-router-dom';
 
 export function CarCardPattern({ car }) {
     return (
-        <div className="col-12 col-md-6 col-lg-4 col-xl-3">
+        <div className="col-12 col-md-6 col-lg-4 col-xl-3" data-aos="fade-up" data-aos-delay="200">
+            <Link to="/car-card">
             <div className="card">
                 <div className="position-relative">
                     <img src={car.image} className="card-img-top" alt="Car" />
@@ -39,6 +41,7 @@ export function CarCardPattern({ car }) {
                     </div>
                 </div>
             </div>
+            </Link>
         </div>
     );
 }

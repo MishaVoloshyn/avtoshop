@@ -41,11 +41,11 @@ export function CarInfo() {
                         <li className="breadcrumb-item active" aria-current="page">Ranger Black – 2021</li>
                     </ol>
                 </nav>
-                <h2 className="dm-sans-bold">Ranger Black – 2021</h2>
-                <p className="ft-15">2.0 D5 PowerPulse Momentum 5dr AWD Geartronic Estate</p>
+                <h2 className="dm-sans-bold" data-aos="fade-up" data-aos-delay="200">Ranger Black – 2021</h2>
+                <p className="ft-15" data-aos="fade-up" data-aos-delay="200">2.0 D5 PowerPulse Momentum 5dr AWD Geartronic Estate</p>
 
                 <div className="row">
-                    <div className="col-12 col-md-8 col-lg-6">
+                    <div className="col-12 col-md-8 col-lg-6" data-aos="fade-up" data-aos-delay="300">
                         <div className="row gy-2 gx-1">
                             <div className="col-6 col-md-3">
                                 <div className="blue-color border-40 bg-light-blue py-2 px-2 text-center ft-15"><img src={calendarIcon} alt=""/> 2021</div>
@@ -62,7 +62,7 @@ export function CarInfo() {
                         </div>
 
                     </div>
-                    <div className="col-12 col-md-4 col-lg-6">
+                    <div className="col-12 col-md-4 col-lg-6" data-aos="fade-up" data-aos-delay="300">
                         <div className="row gy-2 gx-1 d-flex justify-content-end mt-2 mt-md-0">
                             <div className="col-4 col-md-4 col-lg-3">
                                 <div className=" text-center ft-15">Share <button className="btn border-btn rounded-5"><img src={shareIcon} className="align-self-auto" alt=""/></button></div>
@@ -79,7 +79,7 @@ export function CarInfo() {
                 </div>
 
                 <div className="row pt-3">
-                    <div className="col-12 col-lg-8">
+                    <div className="col-12 col-lg-8" data-aos="fade-up" data-aos-delay="400">
                         <div>
                             <img src={slider1Img} className="img-fluid border-16" alt=""/>
                         </div>
@@ -91,7 +91,7 @@ export function CarInfo() {
 
                          </div>
 
-                        <div className="row pt-4 pb-4">
+                        <div className="row pt-4 pb-4" data-aos="fade-up" data-aos-delay="500">
                             <div className="col-lg-3 col-6 fw-bold pb-3"><img src={bodyIcon} alt=""/> Body:</div>
                             <div className="col-lg-3 col-6"> Sedan</div>
                             <div className="col-lg-3 col-6 fw-bold pb-3"><img src={conditionIcon} alt=""/> Condition:</div>
@@ -125,7 +125,7 @@ export function CarInfo() {
                         </div>
                         <hr/>
 
-                        <div className="row pt-3 ">
+                        <div className="row pt-3 " data-aos="fade-up" data-aos-delay="600">
                             <div className="col-12 fw-bold ft-26 pb-2">
                                 Description
                             </div>
@@ -147,7 +147,7 @@ export function CarInfo() {
                         </div>
                         <hr/>
 
-                        <div className="row pt-3 ">
+                        <div className="row pt-3 " data-aos="fade-up" data-aos-delay="700">
                             <div className="col-12 fw-bold ft-26 pb-2">
                                 Features
                             </div>
@@ -192,7 +192,7 @@ export function CarInfo() {
 
                         <hr/>
 
-                        <div className="row pt-4 pb-4">
+                        <div className="row pt-4 pb-4" data-aos="fade-up" data-aos-delay="800">
 
                             <div className="col-12 fw-bold ft-26 pb-2">
                                 Dimensions & Capacity
@@ -232,7 +232,7 @@ export function CarInfo() {
                         <hr/>
 
 
-                        <div className="row pt-4 pb-4">
+                        <div className="row pt-4 pb-4" data-aos="fade-up" data-aos-delay="900">
 
                             <div className="col-12 fw-bold ft-26 pb-2">
                                 Engine and Transmission
@@ -260,7 +260,7 @@ export function CarInfo() {
                         <hr/>
 
 
-                        <div className="row pt-4 pb-4">
+                        <div className="row pt-4 pb-4" data-aos="fade-up" data-aos-delay="1000">
 
                             <div className="col-12 fw-bold ft-26 pb-2">
                                 Location
@@ -275,7 +275,7 @@ export function CarInfo() {
                         <FinancingCalc/>
 
                     </div>
-                    <div className="col-12 col-lg-4 ">
+                    <div className="col-12 col-lg-4 " data-aos="fade-up" data-aos-delay="2000">
                         <div className="pt-lg-0 pt-5">
                             <div className="border-btn1 border-16">
                                 <div className="row m-3 pt-2 pb-2">
@@ -302,7 +302,7 @@ export function CarInfo() {
                             </div>
                         </div>
 
-                        <div className="pt-4 pb-5">
+                        <div className="pt-4 pb-5" data-aos="fade-up" data-aos-delay="3000">
                             <div className="border-btn1 border-16 ">
                                 <div className="row m-3 pt-2 pb-2">
 

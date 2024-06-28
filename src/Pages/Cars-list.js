@@ -23,13 +23,13 @@ export const CarsList = () => {
                             <li className="breadcrumb-item active" aria-current="page">Listing v1</li>
                         </ol>
                     </nav>
-                    <h1 className="dm-sans-bold">Listing v1</h1>
+                    <h1 className="dm-sans-bold" data-aos="fade-up" data-aos-delay="200">Listing v1</h1>
                     <div className="row align-items-center">
-                        <div className="col-6">
+                        <div className="col-6" data-aos="fade-up" data-aos-delay="300">
                             <p className="dm-sans-medium ft-15">Showing results</p>
                         </div>
                         <div className="col-6">
-                            <div className="row align-items-center">
+                            <div className="row align-items-center" data-aos="fade-up" data-aos-delay="200">
                                 <div className="col-7">
                                     <p className="dm-sans-regular ft-15 text-end text-secondary">Sort by</p>
                                 </div>

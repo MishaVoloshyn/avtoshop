@@ -33,14 +33,14 @@ export function Calculator() {
             <div className="container border border-16 ">
                 <div className="row">
                     <div className="col-12 col-md-8 py-5 px-5">
-                        <h1 className="dm-sans-bold text-video-slider1">Auto Loan Calculator</h1>
-                        <p className="ft-15">
+                        <h1 className="dm-sans-bold text-video-slider1" data-aos="fade-up" data-aos-delay="200">Auto Loan Calculator</h1>
+                        <p className="ft-15" data-aos="fade-up" data-aos-delay="300">
                             Use our loan calculator to calculate payments over the life of your loan. Enter your information to
                             see how much your monthly payments could be. You can adjust length of loan, down payment and
                             interest rate to see how those changes raise or lower your payments.
                         </p>
                         <div className="row">
-                            <div className="col-6">
+                            <div className="col-6" data-aos="fade-up" data-aos-delay="400">
                                 <div className="form-floating mb-3">
                                     <input
                                         type="number"
@@ -53,7 +53,7 @@ export function Calculator() {
                                 </div>
                             </div>
                             <div className="col-6">
-                                <div className="form-floating mb-3">
+                                <div className="form-floating mb-3" data-aos="fade-up" data-aos-delay="400">
                                     <input
                                         type="number"
                                         className="form-control border-16"
@@ -65,7 +65,7 @@ export function Calculator() {
                                 </div>
                             </div>
                             <div className="col-6">
-                                <div className="form-floating mb-3">
+                                <div className="form-floating mb-3" data-aos="fade-up" data-aos-delay="500">
                                     <input
                                         type="number"
                                         className="form-control border-16"
@@ -77,7 +77,7 @@ export function Calculator() {
                                 </div>
                             </div>
                             <div className="col-6">
-                                <div className="form-floating mb-3">
+                                <div className="form-floating mb-3" data-aos="fade-up" data-aos-delay="500">
                                     <input
                                         type="number"
                                         className="form-control border-16"
@@ -88,7 +88,7 @@ export function Calculator() {
                                     <label htmlFor="floatingInput4">Down Payment</label>
                                 </div>
                             </div>
-                            <div className="col-12 d-grid">
+                            <div className="col-12 d-grid" data-aos="fade-up" data-aos-delay="600">
                                 <button
                                     className="btn py-3 calc-btn"
                                     onClick={calculate}

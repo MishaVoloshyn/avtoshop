@@ -4,7 +4,7 @@ export function SliderVideo() {
     return (
         <div className="container px-5 px-xxl-0">
             <div className="row align-items-center">
-                <div className="col-12 col-xxl-6 position-relative p-0">
+                <div className="col-12 col-xxl-6 position-relative p-0" data-aos="fade-up" data-aos-delay="200">
                     <div className="video-wrapper borderr">
                         <div className="embed-responsive embed-responsive-16by9">
                             <iframe
@@ -17,7 +17,7 @@ export function SliderVideo() {
                         </div>
                     </div>
                 </div>
-                <div className="col-12 col-xxl-6 p-0">
+                <div className="col-12 col-xxl-6 p-0" data-aos="fade-up" data-aos-delay="300">
                     <div className="slider-bg-color">
                         <h1 className="dm-sans-bold ft-40 text-center pt-3 pt-xxl-1 pb-3 pb-xxl-0">Get A Fair Price For Your Car Sell To Us Today</h1>
                         <p className="dm-sans-regular ft-15 px-3 ">

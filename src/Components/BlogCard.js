@@ -1,8 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export function BlogCard({ blog }) {
     return (
         <div className="col-12 col-md-6 col-lg-4">
+            <Link to="/blog-page">
             <div className="border-16 card border-0">
                 <div className="position-relative">
                     <img src={blog.image} className="card-img-top border-16" alt="Car" />
@@ -23,6 +25,7 @@ export function BlogCard({ blog }) {
 
                 </div>
             </div>
+            </Link>
         </div>
     );
 }

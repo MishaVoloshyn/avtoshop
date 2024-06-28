@@ -28,34 +28,27 @@ export function HeaderDark() {
                                             Home
                                         </Link>
                                         <ul className="dropdown-menu">
-                                            <li><Link to="/questions" className="dropdown-item">Questions</Link></li>
                                             <li><Link to="/service" className="dropdown-item">Services</Link></li>
-                                            <li><Link to="/cars-list" className="dropdown-item">Our Cars</Link></li>
+                                            <li><Link to="/cars-list" className="dropdown-item">Cars list</Link></li>
+                                            <li><Link to="/questions" className="dropdown-item">Questions</Link></li>
                                         </ul>
                                     </li>
 
                                     {/* Pricing */}
                                     <li className="nav-item dropdown">
-                                        <Link to="/cars-list" className="nav-link dropdown-toggle text-white">
-                                            Listing
+                                        <Link to="/" className="nav-link dropdown-toggle text-white">
+                                            Pricing
                                         </Link>
                                         <ul className="dropdown-menu">
                                             <li><Link to="/price-cards" className="dropdown-item">Price Cards</Link></li>
-                                            <li><Link to="/" className="dropdown-item">Another action</Link></li>
-                                            <li><Link to="/" className="dropdown-item">Something else here</Link></li>
                                         </ul>
                                     </li>
 
                                     {/* blog */}
-                                    <li className="nav-item dropdown">
+                                    <li className="nav-item">
                                         <Link to="/blog" className="nav-link dropdown-toggle text-white">
                                             Blog
                                         </Link>
-                                        <ul className="dropdown-menu">
-                                            <li><Link to="/" className="dropdown-item">Action</Link></li>
-                                            <li><Link to="/" className="dropdown-item">Another action</Link></li>
-                                            <li><Link to="/" className="dropdown-item">Something else here</Link></li>
-                                        </ul>
                                     </li>
 
                                     {/* Pages */}

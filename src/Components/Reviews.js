@@ -52,19 +52,19 @@ export function Reviews1() {
                 <div className="row gx-3 py-5">
                     <div className="col-12">
                         <div className="row d-flex">
-                            <div className="col-6 align-content-center">
+                            <div className="col-6 align-content-center" data-aos="fade-up" data-aos-delay="200">
                                 <h2 className="dm-sans-bold">What our customers say</h2>
                             </div>
-                            <div className="col-6 align-content-center">
+                            <div className="col-6 align-content-center" data-aos="fade-up" data-aos-delay="200">
                                 <p className="dm-sans-regular ft-15 text-end">Rated 4.7 / 5 based on 28,370 reviews Showing our 4 & 5 star reviews</p>
                             </div>
                         </div>
                     </div>
-                    <div className="slider-container">
+                    <div className="slider-container" data-aos="fade-up" data-aos-delay="300">
                         <Slider {...settings}>
 
                             {/* 1 rating*/}
-                            <div className="col-3 px-3 py-5">
+                            <div className="col-3 px-3 py-5" >
                                 <div className="rating bg-white py-3 px-4 border-16">
                                     <div className="row">
                                         <div className="col-10">

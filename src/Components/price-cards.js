@@ -4,10 +4,10 @@ export function Price_Cards(){
     return(
         <section className="my-5">
             <div className="container">
-                <h2 className="dm-sans-bold text-center mb-5">Membership Plans</h2>
+                <h2 className="dm-sans-bold text-center mb-5" data-aos="fade-up" data-aos-delay="200">Membership Plans</h2>
                 <div className="row gx-3 gy-3">
 
-                    <div className="col-12 col-md-6 col-xl-3">
+                    <div className="col-12 col-md-6 col-xl-3" data-aos="fade-up" data-aos-delay="300">
                         <div className="price-cards-border-color border-16 py-3 px-4 price-card">
                             <p className="dm-sans-bold ft-38 mb-1">$29</p>
                             <p className="dm-sans-medium ft-20 mb-2">Basic plan</p>
@@ -30,7 +30,7 @@ export function Price_Cards(){
                     </div>
 
                     <div className="col-12 col-md-6 col-xl-3 text-white">
-                        <div className="price-cards-border-color border-16 bg-blue py-3 px-4">
+                        <div className="price-cards-border-color border-16 bg-blue py-3 px-4" data-aos="fade-up" data-aos-delay="400">
                             <p className="dm-sans-bold ft-38 mb-1">$39</p>
                             <p className="dm-sans-medium ft-20 mb-2">Standard Plan</p>
                             <p className="dm-sans-regular ft-14">Quis autem vel eum iure reprehenderit
@@ -50,7 +50,7 @@ export function Price_Cards(){
                     </div>
 
                     <div className="col-12 col-md-6 col-xl-3">
-                        <div className="price-cards-border-color border-16 py-3 px-4 price-card">
+                        <div className="price-cards-border-color border-16 py-3 px-4 price-card" data-aos="fade-up" data-aos-delay="500">
                             <p className="dm-sans-bold ft-38 mb-1">$89</p>
                             <p className="dm-sans-medium ft-20 mb-2">Extended Plan</p>
                             <p className="dm-sans-regular ft-14">Quis autem vel eum iure reprehenderit
@@ -71,7 +71,7 @@ export function Price_Cards(){
                     </div>
 
                     <div className="col-12 col-md-6 col-xl-3">
-                        <div className="price-cards-border-color border-16 py-3 px-4 price-card">
+                        <div className="price-cards-border-color border-16 py-3 px-4 price-card" data-aos="fade-up" data-aos-delay="600">
                             <p className="dm-sans-bold ft-38 mb-1">$129</p>
                             <p className="dm-sans-medium ft-20 mb-2">Enterprise Plan</p>
                             <p className="dm-sans-regular ft-14">

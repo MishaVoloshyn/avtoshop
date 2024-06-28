@@ -15,8 +15,8 @@ export const Blog = () => (
                         <li className="breadcrumb-item active" aria-current="page">Blog</li>
                     </ol>
                 </nav>
-                <h1 className="dm-sans-bold">Blog</h1>
-                <div className="row align-items-center">
+                <h1 className="dm-sans-bold" data-aos="fade-up" data-aos-delay="200">Blog</h1>
+                <div className="row align-items-center" data-aos="fade-up" data-aos-delay="300">
                     <div className="col-12 my-5">
                         <BlogList/>
                     </div>
